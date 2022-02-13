@@ -14,6 +14,8 @@ For example, a social network with just one member is of little use; a social ne
 
 And, as the scale and impact of those applications increase, their adoption will require significant institutional change.
 
+[![binancebuy.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644727444221/QGP2hVAXt.jpeg)](https://accounts.binance.com/es-LA/register?ref=396138808)
+
 The adoption of foundational technologies typically happens in four phases. Each phase is defined by the novelty of the applications and the complexity of the coordination efforts needed to make them workable. Applications low in novelty and complexity gain acceptance first. Applications high in novelty and complexity take decades to evolve but can transform the economy.
 
 ><div class="csl-entry">Review, H. B. <i>Blockchain</i>. <span style="background-color:#FEED9D;border-radius:4px;color:black;">[edition missing]</span>. Harvard Business Review Press. Available at: https://www.perlego.com/book/870419/blockchain-pdf (Accessed: 25 September 2021).</div>
