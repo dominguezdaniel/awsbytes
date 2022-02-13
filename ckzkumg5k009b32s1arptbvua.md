@@ -1,4 +1,4 @@
-## Gucci buys land in The Sandbox to create experiences in the Metaverse
+## Gucci Buys Land in The Sandbox to Create Experiences in the Metaverse
 
 [Gucci](https://www.voguebusiness.com/technology/gucci-plans-virtual-world-for-gen-z-on-sandbox) is redoubling its commitment to the metaverse.
 
