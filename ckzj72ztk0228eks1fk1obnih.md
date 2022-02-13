@@ -10,6 +10,8 @@ Among the largest cryptocurrencies, Ethereum is already working on a transition 
 
 Imagine if car companies had been wise enough, several decades ago, to come together and set emission standards for themselves. It would have helped cultivate a healthier planet—and preempted billions of dollars in costs when those standards were finally imposed on them. 
 
+[![binancebuy.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644727580503/ar16NDVm5.jpeg)](https://accounts.binance.com/es-LA/register?ref=396138808)
+
 The blockchain industry is now at a similar inflection point. The question is whether we’ll be wiser than the world-changing industries that came before us.
 
 ><div class="csl-entry">Review, H. B. <i>Blockchain</i>. <span style="background-color:#FEED9D;border-radius:4px;color:black;">[edition missing]</span>. Harvard Business Review Press. Available at: https://www.perlego.com/book/870419/blockchain-pdf (Accessed: 25 September 2021).</div>
