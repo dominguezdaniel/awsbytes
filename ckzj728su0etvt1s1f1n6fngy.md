@@ -14,4 +14,6 @@ Here are five basic principles underlying the technology.
 
 5. Computational logic. The digital nature of the ledger means that blockchain transactions can be tied to computational logic and in essence programmed. So users can set up algorithms and rules that automatically trigger transactions between nodes.
 
+[![binancebuy.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1644727642855/SwKZI2UuR.jpeg)](https://accounts.binance.com/es-LA/register?ref=396138808)
+
 ><div class="csl-entry">Review, H. B. <i>Blockchain</i>. <span style="background-color:#FEED9D;border-radius:4px;color:black;">[edition missing]</span>. Harvard Business Review Press. Available at: https://www.perlego.com/book/870419/blockchain-pdf (Accessed: 25 September 2021).</div>
