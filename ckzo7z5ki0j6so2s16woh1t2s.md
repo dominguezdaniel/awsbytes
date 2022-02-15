@@ -1,6 +1,6 @@
 ## Non-Fungible Florals NFT Collection
 
-[Non-Fungible Florals](https://opensea.io/collection/nf-florals) it's just in time for Valentines Day! 
+[Non-Fungible Florals](https://opensea.io/collection/nf-florals) it's just in time for Valentines Day! "Roses are red, Violets are blue. I may love crypto, but I’d never trade you!"
 
 Give that special someone a flower that will live forever. Mint a limited edition roses. Say, our love is immutable with pure power of a white rose and classic red rose.
 
