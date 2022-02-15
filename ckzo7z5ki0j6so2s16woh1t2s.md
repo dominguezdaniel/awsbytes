@@ -2,7 +2,7 @@
 
 [Non-Fungible Florals](https://opensea.io/collection/nf-florals) it's just in time for Valentines Day! 
 
-Give that special someone a flower that will live forever.
+Give that special someone a flower that will live forever. Mint your limited edition roses. Say, Our Love is immutable.
 
 %[https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/69019596025653533528958036775742178608927812516299318844375666847591170048060?ref=0x1b8aff4dc5da50da88ed18f41fd8b3f95245c330]
 
