@@ -18,4 +18,6 @@ The data is gathered from the five following sources. Each data point is valued 
 4. Dominance (10%)
 5. Trends (10%)
 
+
+
 %[<img src="https://alternative.me/crypto/fear-and-greed-index.png" alt="Latest Crypto Fear & Greed Index" />]
