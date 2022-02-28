@@ -17,7 +17,7 @@ BSC boasts smart contract functionality and compatibility with the Ethereum Virt
 
 Combined with Ethereum's recent network challenges, BSC’s attributes have made it an attractive option for blockchain applications to easily switch over. BSC processed 11.8 million transactions in a day at its peak, multiple times the maximum volume on Ethereum. As a crypto asset, BNB rose to as high as Top 3 in the crypto rankings, driven by the combination of BSC’s momentum, the growing number of use cases for the token, and its use as a utility token on the Binance exchange, the largest exchange in the world by trading volume, among other factors.
 
-![buy-bitcoin.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1645030755519/qdinEVbxb.jpeg)
+[![buy-bitcoin.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1645030755519/qdinEVbxb.jpeg)](https://accounts.binance.com/es-LA/register?ref=396138808)
 
 **2- Polygon (MATIC)**
 Total Market Cap (July 14, 2021): $5.608 billion (Rank #17)
