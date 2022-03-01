@@ -8,6 +8,6 @@ A layer-1 network is another name for a base blockchain. BNB Smart Chain (BNB), 
 
 In other words, a protocol is layer 1 when it processes and finalizes transactions on its own blockchain. They also have their own native token, used to pay for transaction fees.
 
-[![cr3.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1646102503455/2sOPlHPuv.png)](https://accounts.binance.com/es-LA/register?ref=396138808)
+[![buy-bitcoin.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1646153391362/bbFPVQilI.jpg)]((https://accounts.binance.com/es-LA/register?ref=396138808))
 
 Today’s blockchain ecosystem has several layer-1 networks and layer-2 protocols. It’s easy to get confused, but as soon as you grasp the basic concepts, it becomes easier to understand the overall structure and architecture. This knowledge can be useful when studying new blockchain projects, especially when they focus on network interoperability and cross-chain solutions.
