@@ -1,6 +1,6 @@
 ## Crypto Market Capital
 
-Market capitalization is the total dollar value of all the shares of a company’s stock or, in the case of Bitcoin or another cryptocurrency, of all the coins that have been mined. 
+[Crypto market capitalization](https://coin360.com/?period=30d) is the total dollar value of all the shares of a company’s stock or, in the case of Bitcoin or another cryptocurrency, of all the coins that have been mined. 
 
 In crypto, market cap is calculated by multiplying the total number of coins that have been mined by the price of a single coin at any given time.
 
