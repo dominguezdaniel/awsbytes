@@ -17,4 +17,4 @@ For more information, see the [AWS Support]
 
 ---
 
->Source: https://aws.amazon.com/about-aws/whats-new/2022/06/aws-support-improved-create-case-experience/
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/06/aws-support-improved-create-case-experience/
