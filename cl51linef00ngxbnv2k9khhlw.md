@@ -10,4 +10,4 @@ This feature is available in the same [AWS Regions](https://aws.amazon.com/about
 
 ---
 
->Source: https://aws.amazon.com/about-aws/whats-new/2022/06/aws-glue-streaming-etl-support-auto-decompression/
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/06/aws-glue-streaming-etl-support-auto-decompression/
