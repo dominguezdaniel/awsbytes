@@ -1,4 +1,4 @@
-## What's New with AWS: AWS Support announces an improved create case experience
+## AWS Support announces an improved create case experience
 
 [![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r71m2wk06x3ib803b96l.png)](https://serverspace.io/ref/466650)
 
@@ -14,3 +14,7 @@ The new create case experience is now available to all AWS customers at no addit
 
 For more information, see the [AWS Support]
 (https://docs.aws.amazon.com/awssupport/latest/user/case-management.html) documentation.
+
+---
+
+>Source: https://aws.amazon.com/about-aws/whats-new/2022/06/aws-support-improved-create-case-experience/
