@@ -12,4 +12,4 @@ All new Amazon DocumentDB v4.0 clusters will have this feature enabled by defaul
 
 ---
 
->Source: https://aws.amazon.com/about-aws/whats-new/2022/06/aws-support-improved-create-case-experience/
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/06/aws-support-improved-create-case-experience/
