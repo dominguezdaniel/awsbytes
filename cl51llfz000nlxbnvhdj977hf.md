@@ -10,4 +10,4 @@ For more information on copying RDS snapshots, please refer to the documentation
 
 ---
 
->Source: https://aws.amazon.com/about-aws/whats-new/2022/06/amazon-rds-increases-concurrent-copy-limit-snapshots-destination-region/
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/06/amazon-rds-increases-concurrent-copy-limit-snapshots-destination-region/
