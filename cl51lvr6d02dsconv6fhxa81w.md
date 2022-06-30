@@ -1,4 +1,4 @@
-## What's New with AWS: Amazon GameLift launches new console experience
+## Amazon GameLift launches new console experience
 
 [Amazon GameLift](https://aws.amazon.com/gamelift/) now offers a new console experience that provides a more intuitive way to manage and scale your game servers on AWS. The redesigned console has new left-hand navigation that makes it easy to switch between various GameLift features such as managing and creating builds, scripts, fleets, FlexMatch, and includes helpful resource links like “Prepare to launch”, and service quotas. The new interface will make it quicker and easier to configure and manage your game server instances by providing a view of all your settings in one location.
 
