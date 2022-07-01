@@ -1,0 +1,13 @@
+## AWS CloudFormation Guard 2.1 is now generally available
+
+AWS CloudFormation announces the general availability (GA) of AWS CloudFormation Guard 2.1 (cfn-guard), which enhances Guard 2.0 with new features. CloudFormation Guard is an open-source domain-specific language (DSL) and command line interface (CLI) that helps enterprises keep their AWS infrastructure and application resources in compliance with their company policy guidelines. CloudFormation Guard provides compliance administrators with a simple, policy-as-code language to define rules that can check for both required and prohibited resource configurations. It enables developers to validate their templates (CloudFormation Templates, K8s configurations, and Terraform JSON configurations) against those rules.
+
+This GA release is backward compatible with cfn-guard 2.0, and enhances the developer experience. In additional to improving the stability and performance of cfn-guard, this release introduces four new features. First, developers have the option of viewing verbose color-coded outputs during template validation that will show code snippets on failure; allowing users to pinpoint corrective actions. Second, this release introduces parametrized rules, wherein policy authors can write a common polymorphic rule that changes its nature transparently based on the type of template being passed. For example, developers can write cfn-guard rules that work across AWS CloudFormation Templates, Terraform plans that use AWS CodeCommit, and AWS Config for asserting conditions. Third, this release introduces directory bundle support for running validations for templates allowing users to pass a directory as an input to scan all supported file types containing guard rules, data templates, or input parameters. Fourth, this release introduces dynamic data lookup for inspection via multiple data files. For example, users can pull a list of allowed security groups from a template, read those values into a ruleset and validate the template. The same ruleset can be used by passing stage-specific lookup values as input (DEV vs. PROD).
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r71m2wk06x3ib803b96l.png)](https://serverspace.io/ref/466650)
+
+The AWS CloudFormation team welcomes feedback on AWS CloudFormation Guard and contributions to the open source project. To get started, install cfn-guard following the instructions in the [cfn-guard GitHub Repository](https://github.com/aws-cloudformation/cloudformation-guard).
+
+---
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/06/aws-cloudformation-guard-2-1-available/
