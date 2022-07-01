@@ -1,0 +1,13 @@
+## Now bring your own development environment in a custom image to RStudio on Amazon SageMaker
+
+Starting today, you can now bring your own development environment in a custom image to [RStudio on Amazon SageMaker](https://aws.amazon.com/blogs/aws/announcing-fully-managed-rstudio-on-amazon-sagemaker-for-data-scientists/). RStudio on SageMaker is the industry’s first fully managed RStudio Workbench in cloud. You can quickly launch the familiar RStudio Integrated Development Environment (IDE), dial up and down the underlying compute resources without interrupting your work, and even switch to programming using Python on [Amazon SageMaker Studio Notebooks](https://docs.aws.amazon.com/sagemaker/latest/dg/notebooks.html). All your work, including code, datasets, repositories, and other artifacts are synchronized between the two environments. You can bring your current RStudio license to [Amazon SageMaker](Amazon SageMaker) at no additional charge to quickly get started.
+
+RStudio on SageMaker already comes with a [built-in image](https://docs.aws.amazon.com/sagemaker/latest/dg/rstudio-use.html#rstudio-base-image) pre-configured with R programming and data science tools including [SageMaker SDK](https://sagemaker.readthedocs.io/en/stable/index.html), AWS CLI, AWS SDK, and Reticulate package for integration with Python-based interfaces. Starting today, you can register your own custom image with packages and tools of your choice, and make them available to all the users sharing the RStudio on SageMaker domain. Bringing your own custom image has several benefits. You can standardize and simplify the getting started experience for data scientists and developers by providing a starter base image, pre-configure the drivers required for connecting to data stores, or pre-install specialized data science software for your business domain.
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r71m2wk06x3ib803b96l.png)](https://serverspace.io/ref/466650)
+
+The feature is now available in all AWS regions where RStudio on Amazon SageMaker is [available](https://docs.aws.amazon.com/sagemaker/latest/dg/regions-quotas.html). To get started with bring your own image for RStudio on SageMaker, see our [developer guide](https://docs.aws.amazon.com/sagemaker/latest/dg/rstudio.html).
+
+---
+
+>Source: https://aws.amazon.com/about-aws/whats-new/2022/06/amazon-sagemaker-development-environment-custom-image-rstudio/
