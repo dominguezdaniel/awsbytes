@@ -1,0 +1,13 @@
+## Amazon Pinpoint launches journey schedule for more precise communication delivery
+
+Journeys in Amazon Pinpoint now allows customers to define a schedule for channel communications based on day of the week, and day of the year. In addition, Amazon Pinpoint has added two new journey sending limits to help customers control the volume of communications sent to a user. Amazon Pinpoint journeys are multi-step campaigns that send users on communication paths based on their actions or attributes. Journeys can use multiple channels including: SMS, email, push, and voice. Journeys are intended for customers who have user engagement use cases, and want to send targeted communications that drive high-value user actions.
+
+Using the journey schedule, customers can set the start and end time for communication sends for each day of the week. For example, a customer may decide to set different delivery sending hours between weekdays and weekends. Customers can also set overrides for certain days of the year, for example set different hours, or do not send during public holidays. More precise delivery times mean users are more likely to engage with the communication and increase metrics such as open rates for SMS and email, as well as pick-up rates for voice calls. Journey sending limits can be used to control the volume of communications sent to a user for an individual journey and across all journeys. For example, a customer can ensure they only send a maximum of three messages to a user within a seven day period across all journeys. This can help prevent a user from receiving too many communications within a short period of time, which can hurt a customer’s brand and lower response rates.
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r71m2wk06x3ib803b96l.png)](https://serverspace.io/ref/466650)
+
+The journey schedule and sending limits are available in the following AWS Regions: US East (N. Virginia), US West (Oregon), Asia Pacific (Mumbai), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Canada (Central), Europe (Frankfurt), Europe (Ireland), Europe (London), and AWS GovCloud (US-West). For more information, see [Create a journey](https://docs.aws.amazon.com/pinpoint/latest/userguide/journeys-create.html) in the Amazon Pinpoint User Guide.
+
+---
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/06/amazon-pinpoint-launches-journey-schedule-communication-delivery/
