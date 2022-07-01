@@ -10,4 +10,4 @@ The feature is now available in all AWS regions where RStudio on Amazon SageMake
 
 ---
 
->Source: https://aws.amazon.com/about-aws/whats-new/2022/06/amazon-sagemaker-development-environment-custom-image-rstudio/
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/06/amazon-sagemaker-development-environment-custom-image-rstudio/
