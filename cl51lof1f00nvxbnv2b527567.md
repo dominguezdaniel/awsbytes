@@ -1,4 +1,4 @@
-## What's New with AWS: AWS DataSync can now copy data to and from Amazon FSx for NetApp ONTAP
+## AWS DataSync can now copy data to and from Amazon FSx for NetApp ONTAP
 
 [AWS DataSync](https://aws.amazon.com/datasync/) now supports copying files to and from [Amazon FSx for NetApp ONTAP](https://aws.amazon.com/fsx/netapp-ontap/), a storage service that allows customers to launch and run fully managed ONTAP file systems in the cloud. Using AWS DataSync, you can quickly and securely migrate your data from your on-premises storage, the edge, or other clouds to your FSx for NetApp ONTAP file systems running in AWS. You can also use DataSync to move data between your FSx for NetApp ONTAP file system and Amazon S3 buckets, Amazon EFS file systems, or other Amazon FSx file systems.
 
