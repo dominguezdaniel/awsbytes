@@ -4,7 +4,7 @@
 
 With this new feature, AWS Glue streaming ETL automatically detects if data is compressed in a stream and decompresses the data without customers having to write any code. AWS Glue streaming ETL supports auto-decompression for BZIP, GZIP, SNAPPY, XZ, ZSTD, and DEFLATE compression types and is supported on AVRO, JSON, CSV, and other file formats. To learn more, visit our [documentation](https://docs.aws.amazon.com/glue/latest/dg/add-job-streaming.html).
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r71m2wk06x3ib803b96l.png)](https://serverspace.io/ref/466650)
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
 
 This feature is available in the same [AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where AWS Glue is available.
 
