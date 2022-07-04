@@ -14,7 +14,7 @@ Amazon SageMaker provides four new tabular data modeling algorithms: LightGBM, C
 
 More detailed explanation for how to use these algorithms can be found in the following blogs on [Bringing the power of deep learning to data in tables](https://www.amazon.science/blog/bringing-the-power-of-deep-learning-to-data-in-tables), and [New built-in Amazon SageMaker algorithms for tabular data modeling: LightGBM, CatBoost, AutoGluon-Tabular, and TabTransformer](https://aws.amazon.com/blogs/machine-learning/new-built-in-amazon-sagemaker-algorithms-for-tabular-data-modeling-lightgbm-catboost-autogluon-tabular-and-tabtransformer/).
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r71m2wk06x3ib803b96l.png)](https://serverspace.io/ref/466650)
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
 
 All these four algorithms can be used in [all regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Amazon SageMaker is available. To get started with these new models on SageMaker, refer to the [documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html).
 
