@@ -8,7 +8,7 @@ Additionally, the Amazon GameLift product page has been updated with a new “Ho
 
 Amazon GameLift is a dedicated game server hosting solution that deploys, operates, and scales cloud servers for multiplayer games. Whether you’re looking for a fully managed solution, or just the feature you need, GameLift leverages the power of AWS to deliver low latency gaming experiences, low player wait times, and cost savings.
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r71m2wk06x3ib803b96l.png)](https://serverspace.io/ref/466650)
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
 
 To experience the new user interface, visit the [Amazon GameLift console](https://console.aws.amazon.com/gamelift) where you can opt-in to the new experience. Customers can choose to revert back to the old experience, or switch between the two experiences. The console is available today in all AWS Regions except AWS China Regions.
 
