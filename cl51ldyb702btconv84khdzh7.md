@@ -6,7 +6,7 @@ TTS voices simplify the way you can create, implement, update, and maintain your
 
 All four voices have been modeled on Matthew, an existing US English voice. While customers continue to appreciate Matthew for his naturalness and professional-sounding quality, he has so far exclusively served English-speaking traffic. AWS was able to decouple language and speaker profile, which allowed to preserve native-like fluency across different languages without the necessity of obtaining multilingual data from the same speaker. As a result, AWS transferred the highly likeable vocal characteristics of Matthew to four new languages.
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r71m2wk06x3ib803b96l.png)](https://serverspace.io/ref/466650)
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
 
 To get started with Liam, Arthur, Daniel and Pedro, log in to the [Amazon Polly console](Amazon Polly console) and review the [documentation](https://docs.aws.amazon.com/polly/latest/dg/what-is.html). For more details, review the full list of Amazon Polly [text-to-speech](https://docs.aws.amazon.com/polly/latest/dg/voicelist.html) voices, [Neural TTS pricing](https://aws.amazon.com/polly/pricing/) ,[regional availability](https://docs.aws.amazon.com/polly/latest/dg/NTTS-main.html#ntts-regions), [service limits](https://docs.aws.amazon.com/polly/latest/dg/limits.html), [FAQs](https://aws.amazon.com/polly/faqs/), and visit the [pricing page](https://aws.amazon.com/polly/pricing/).
 
