@@ -4,7 +4,7 @@ Now, you can use [Amazon EC2 placement groups](https://docs.aws.amazon.com/AWSEC
 
 AWS Outposts rack, a part of the [AWS Outposts family](https://aws.amazon.com/outposts/), is a fully managed service that offers the same AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises datacenter or co-location space for a truly consistent hybrid experience. When you create a spread placement group that will be used in an Outpost, you can set an optional Spread Level parameter to “rack” or “host”, which determines how instances are distributed across the underlying hardware. If no Spread Level is defined, “rack” is selected by default. Spreading instances across distinct hosts is useful in Outposts environments when you want to protect against host failures that can occur within a rack. The number of instances you can launch into a host-level spread placement group is limited only by the number of hosts available in your Outpost.
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r71m2wk06x3ib803b96l.png)](https://serverspace.io/ref/466650)
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
 
 Host-level spread placement groups are available to all Outposts customers at no additional cost in all AWS Regions where Outposts rack is supported. To learn more about AWS Outposts, visit the [Outposts rack product page](https://aws.amazon.com/outposts/rack/). To learn more about EC2 placement groups on Outposts, visit the Outposts user guide.
 
