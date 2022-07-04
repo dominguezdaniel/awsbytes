@@ -6,7 +6,7 @@ Prior to presigned URLs, to share objects with other users, bucket owners would 
 
 Amazon S3 on Outposts delivers object storage to your on-premises AWS Outposts rack environment to help you meet your low latency, local data processing, and data residency needs. Using the S3 APIs and features, S3 on Outposts makes it easier to store, secure, tag, retrieve, report on, and control access to the data on your Outposts. AWS Outposts rack, as part of the AWS Outposts Family, is a fully managed service that extends AWS infrastructure, services, and tools to virtually any data center, co-location space, or on-premises facility for a truly consistent hybrid experience.
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r71m2wk06x3ib803b96l.png)](https://serverspace.io/ref/466650)
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
 
 Presigned URLs are now available at no additional cost in all AWS Regions where [AWS Outposts rack is available](https://aws.amazon.com/outposts/rack/faqs/). To get started with presigned URLs or learn more, visit the [S3 on Outposts page](https://aws.amazon.com/s3/outposts/), or read our [documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/S3OutpostsPresignedURL.html).
 
