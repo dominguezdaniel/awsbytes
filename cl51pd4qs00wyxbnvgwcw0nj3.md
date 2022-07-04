@@ -4,7 +4,7 @@ Starting today, you can now bring your own development environment in a custom i
 
 RStudio on SageMaker already comes with a [built-in image](https://docs.aws.amazon.com/sagemaker/latest/dg/rstudio-use.html#rstudio-base-image) pre-configured with R programming and data science tools including [SageMaker SDK](https://sagemaker.readthedocs.io/en/stable/index.html), AWS CLI, AWS SDK, and Reticulate package for integration with Python-based interfaces. Starting today, you can register your own custom image with packages and tools of your choice, and make them available to all the users sharing the RStudio on SageMaker domain. Bringing your own custom image has several benefits. You can standardize and simplify the getting started experience for data scientists and developers by providing a starter base image, pre-configure the drivers required for connecting to data stores, or pre-install specialized data science software for your business domain.
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r71m2wk06x3ib803b96l.png)](https://serverspace.io/ref/466650)
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
 
 The feature is now available in all AWS regions where RStudio on Amazon SageMaker is [available](https://docs.aws.amazon.com/sagemaker/latest/dg/regions-quotas.html). To get started with bring your own image for RStudio on SageMaker, see our [developer guide](https://docs.aws.amazon.com/sagemaker/latest/dg/rstudio.html).
 
