@@ -6,7 +6,7 @@ AWS DataSync is an online data transfer service that makes it easy to move petab
 
 FSx for NetApp ONTAP provides the same familiar features, performance, and administrative capabilities that NetApp customers use on premises, with the simplicity, agility, security, and scalability of a fully managed and native AWS service. DataSync securely and seamlessly connects to your Amazon FSx for NetApp ONTAP file system, and copies files and folders together with their associated metadata. With this launch, DataSync now supports all Amazon FSx file system types: FSx for Windows File Server, FSx for Lustre, FSx for OpenZFS, and FSx for ONTAP.
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r71m2wk06x3ib803b96l.png)](https://serverspace.io/ref/466650)
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
 
 AWS DataSync support for Amazon FSx for NetApp ONTAP is now available in all [AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where you can use the two services. To get started with AWS DataSync, visit the [AWS DataSync console](https://console.aws.amazon.com/datasync/home). To learn more, visit the AWS DataSync [User Guide](https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html) or [product page](https://aws.amazon.com/datasync/).
 
