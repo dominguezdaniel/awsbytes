@@ -6,7 +6,7 @@ By supporting AWS VPC endpoints AWS DMS makes it easier to maintain end to end n
 
 To learn more, see [Setting up a network for a replication instance](https://docs.aws.amazon.com/dms/latest/userguide/CHAP_ReplicationInstance.VPC.html).
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r71m2wk06x3ib803b96l.png)](https://serverspace.io/ref/466650)
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
 
 For AWS DMS regional availability, please refer to the [AWS Region Table](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/).
 
