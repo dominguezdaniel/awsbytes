@@ -4,10 +4,6 @@ Journeys in Amazon Pinpoint now allows customers to define a schedule for channe
 
 Using the journey schedule, customers can set the start and end time for communication sends for each day of the week. For example, a customer may decide to set different delivery sending hours between weekdays and weekends. Customers can also set overrides for certain days of the year, for example set different hours, or do not send during public holidays. More precise delivery times mean users are more likely to engage with the communication and increase metrics such as open rates for SMS and email, as well as pick-up rates for voice calls. Journey sending limits can be used to control the volume of communications sent to a user for an individual journey and across all journeys. For example, a customer can ensure they only send a maximum of three messages to a user within a seven day period across all journeys. This can help prevent a user from receiving too many communications within a short period of time, which can hurt a customer’s brand and lower response rates.
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
-
 The journey schedule and sending limits are available in the following AWS Regions: US East (N. Virginia), US West (Oregon), Asia Pacific (Mumbai), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Canada (Central), Europe (Frankfurt), Europe (Ireland), Europe (London), and AWS GovCloud (US-West). For more information, see [Create a journey](https://docs.aws.amazon.com/pinpoint/latest/userguide/journeys-create.html) in the Amazon Pinpoint User Guide.
-
----
 
 > Source: https://aws.amazon.com/about-aws/whats-new/2022/06/amazon-pinpoint-launches-journey-schedule-communication-delivery/
