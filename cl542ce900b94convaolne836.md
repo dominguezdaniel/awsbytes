@@ -10,10 +10,6 @@ CAP Lambdas also give the administrator greater security controls when they do n
 
 Administrators can set up either EWS-based or CAP Lambda-based availability configurations. One of these can be set for each domain their organization needs to get calendar availability from. Availability configurations can be set up in two ways: through the WorkMail Console UI or directly through the new availability configurations API. To configure a CAP Lambda, the customer first needs to deploy one using the AWS Lambda service. Customers are free to implement their own CAP Lambda, or use an example from the aws-samples git repository. Detailed instructions on the setup can be found in the [Configure custom availability providers on Amazon WorkMail](https://docs.aws.amazon.com/workmail/latest/adminguide/enable_interop_wm.html#Configuring_CAP) documentation page.
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
-
 To learn more, see [Configure custom availability providers on Amazon WorkMail](https://docs.aws.amazon.com/workmail/latest/adminguide/enable_interop_wm.html#Configuring_CAP). To learn more about Amazon WorkMail, or to start your trial, see [Amazon WorkMail](https://aws.amazon.com/workmail/).
-
----
 
 > Source: https://aws.amazon.com/about-aws/whats-new/2022/07/amazon-workmail-supports-invoking-lambdas-fetch-availability-free-busy/
