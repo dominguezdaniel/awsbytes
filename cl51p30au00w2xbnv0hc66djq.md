@@ -4,10 +4,6 @@ You can now use [AWS Application Migration Service](https://aws.amazon.com/appli
 
 [AWS SOC reports](https://aws.amazon.com/compliance/soc-faqs/) are independent third-party examination reports that demonstrate how AWS achieves key compliance controls and objectives. In addition to meeting standards for SOC, AWS Application Migration Service is Health Insurance Portability and Accountability Act (HIPAA) eligible, Payment Card Industry – Data Security Standard (PCI DSS) compliant, and International Organization for Standardization (ISO) compliant. You can download the AWS SOC reports in [AWS Artifact](https://aws.amazon.com/artifact/), and you can visit [AWS Services in Scope by Compliance Program](https://aws.amazon.com/compliance/services-in-scope/) to see a full list of services covered by each compliance program.
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
-
 To start using Application Migration Service for free, sign in through the [AWS Management Console](https://console.aws.amazon.com/mgn/home). For more information, visit the Application Migration Service [product page](https://aws.amazon.com/application-migration-service/) or [documentation](https://docs.aws.amazon.com/mgn/index.html).
-
----
 
 > Source: https://aws.amazon.com/about-aws/whats-new/2022/06/aws-application-migration-service-in-scope-aws-soc-reports-supports-temporary-iam-credentials/
