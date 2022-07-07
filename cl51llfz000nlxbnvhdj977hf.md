@@ -4,10 +4,6 @@
 
 The new limit applies to snapshots of Microsoft SQL Server, Oracle engines, Amazon RDS for PostgreSQL, Amazon RDS for MySQL, and Amazon RDS for MariaDB engines in AWS Regions where Amazon RDS is available. This feature has been enabled on your account and no further action is needed from you.
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
-
 For more information on copying RDS snapshots, please refer to the documentation [guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CopySnapshot.html).
-
----
 
 > Source: https://aws.amazon.com/about-aws/whats-new/2022/06/amazon-rds-increases-concurrent-copy-limit-snapshots-destination-region/
