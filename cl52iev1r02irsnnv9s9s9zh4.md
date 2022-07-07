@@ -21,10 +21,6 @@ Seamless developer experience with first-class Typescript support.
 - 
 Powerful theming capabilities allow you to make Amplify UI look like your brand.
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
-
 To get started, please visit [Amplify UI](https://ui.docs.amplify.aws/).
-
----
 
 > Source: https://aws.amazon.com/about-aws/whats-new/2022/06/general-availability-amplify-ui-react/
