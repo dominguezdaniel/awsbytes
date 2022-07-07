@@ -4,10 +4,6 @@
 
 With IAM Roles Anywhere you now have the ability to use temporary credentials on AWS, eliminating the need to manage long term credentials for workloads running outside of AWS, which can help improve your security posture. Using IAM Roles Anywhere can reduce support costs and operational complexity through using the same access controls, deployment pipelines, and testing processes across all of your workloads. You can get started by establishing the trust between your AWS environment and your [public key infrastructure](https://docs.aws.amazon.com/crypto/latest/userguide/awspki-whatis-toplevel.html) (PKI). You do this by creating a trust anchor where you either reference your [AWS Certificate Manager Private Certificate Authority](https://aws.amazon.com/certificate-manager/private-certificate-authority/) (ACM Private CA) or register your own certificate authorities (CAs) with IAM Roles Anywhere. By adding one or more roles to a profile and enabling IAM Roles Anywhere to assume these roles, your applications can now use the client certificate issued by your CAs to make secure requests to AWS and get temporary credentials to access the AWS environment.
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
-
 IAM Roles Anywhere is available in most commercial regions at no additional cost. Please see [the documentation](https://docs.aws.amazon.com/general/latest/gr/rolesanywhere.html#rolesanywhere_region) for more information on supported regions. [ACM Private CA standard pricing](https://aws.amazon.com/certificate-manager/pricing/) will apply, when used. To learn more about IAM Roles Anywhere, visit the [User Guide](https://docs.aws.amazon.com/rolesanywhere/latest/userguide/introduction.html).
-
----
 
 > Source: https://aws.amazon.com/about-aws/whats-new/2022/07/aws-identity-access-management-iam-roles-anywhere-workloads-outside-aws/
