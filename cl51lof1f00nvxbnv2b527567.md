@@ -8,6 +8,4 @@ FSx for NetApp ONTAP provides the same familiar features, performance, and admin
 
 AWS DataSync support for Amazon FSx for NetApp ONTAP is now available in all [AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where you can use the two services. To get started with AWS DataSync, visit the [AWS DataSync console](https://console.aws.amazon.com/datasync/home). To learn more, visit the AWS DataSync [User Guide](https://docs.aws.amazon.com/datasync/latest/userguide/what-is-datasync.html) or [product page](https://aws.amazon.com/datasync/).
 
----
-
 > Source: https://aws.amazon.com/about-aws/whats-new/2022/06/aws-datasync-copy-data-amazon-fsx-netapp-ontap/
