@@ -10,11 +10,7 @@ Each step will collect rich information relevant to your problem, provide highly
 
 The new create case experience is now available to all AWS customers at no additional cost. 
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
-
 For more information, see the [AWS Support]
 (https://docs.aws.amazon.com/awssupport/latest/user/case-management.html) documentation.
-
----
 
 > Source: https://aws.amazon.com/about-aws/whats-new/2022/06/aws-support-improved-create-case-experience/
