@@ -4,10 +4,6 @@ AWS announced the general availability of [Amazon Elastic Kubernetes Service (Am
 
 Amazon EKS Anywhere on bare metal enables customers to automate all steps from bare metal hardware provisioning to Kubernetes cluster operations using a bundled open source toolset built on the foundation of Tinkerbell and Cluster API. Customers get choice of operating systems, and can pick either Bottlerocket (default) or Ubuntu for running their clusters. There are no upfront commitments or fees to use Amazon EKS Anywhere. Customers can optionally purchase Amazon [EKS Anywhere Subscriptions](https://aws.amazon.com/eks/eks-anywhere/pricing/) to get 24/7 support from AWS’ highly-trained subject matter experts for Amazon EKS Anywhere cluster components as well as all bundled open source tooling.
 
-[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5m15zsqp4eb1szj9b681.png)](https://k21technologies.samcart.com/referral/gBBzLUFj/wZNqvQpM5mBn2g53)
-
 To get started with Amazon EKS Anywhere on bare metal, visit the [documentation site](https://anywhere.eks.amazonaws.com/). To learn more about Amazon EKS Anywhere, visit the [product page](https://aws.amazon.com/eks/eks-anywhere/).
-
----
 
 > Source: https://aws.amazon.com/about-aws/whats-new/2022/06/bare-metal-support-amazon-eks-anywhere/
