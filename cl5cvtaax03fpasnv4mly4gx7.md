@@ -1,0 +1,9 @@
+## Amazon SageMaker Autopilot experiments are now up to 2x faster
+
+AWS announced that [Amazon SageMaker Autopilot](https://aws.amazon.com/sagemaker/autopilot/) experiments run up to 2x faster to generate ML models with high model performance. Amazon SageMaker Autopilot is a low-code machine learning (ML) product that automatically builds, trains, and tunes the best ML models based on your data while allowing you to maintain full control and visibility. However, as dataset sizes grow, training and tuning models can become computationally expensive. 
+
+SageMaker Autopilot will use a zero shot hyper parameter initialization method and ml.m5.12xlarge instances (48 vCPUs, 192 GiB memory) that help reduce the number of default trials needed from 250 to 100. As a result, SageMaker Autopilot experiment will complete up to 2X faster than before to deliver the best performing ML model. To evaluate the performance improvements, we used multiple [OpenML benchmark](https://docs.openml.org/benchmark/) datasets with varying sizes ranging from 0.5 MB to 1 GB. Based on our results, smaller data sets (< 100MB) saw an overall Autopilot job runtime improvement of up to 45% (from average 230 to 120 mins) while medium (> 100MB < 1GB) and large datasets (> 1GB) saw 40% (from average 540 to 430 mins) runtime improvements respectively. With these enhancements , you can run your SageMaker Autopilot experiments faster without making any changes to existing job configurations.
+
+To learn more about SageMaker Autopilot, please visit the [SageMaker Autopilot product page](https://aws.amazon.com/sagemaker/autopilot/) and [documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-automate-model-development.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/07/amazon-sagemaker-autopilot-experiments-2x-faster/
