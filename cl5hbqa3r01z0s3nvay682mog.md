@@ -1,0 +1,7 @@
+## Introducing Nimble Studio seamless IAM access for studio components
+
+Amazon Nimble Studio now supports seamless AWS Identity Access Management (IAM) profile access for studio components, and custom studio components, directly to workstation sessions, available immediately. This allows Nimble Studio admins to set up and control additional properties of their streaming workstations via seamless IAM role permissions, ensuring artists have the right level of access for the tasks they’re working on, without the need to switch profiles. Custom components use PowerShell scripts for Windows, and shell scripts for Linux instances. These configurations can then be added to Nimble Studio Launch Profiles for easy retrieval. With custom configurations, you can add resources to your workstations and run custom scripts on your instance, system, and user initialization with greater flexibility than before with seamless IAM role permissions.
+
+To get started with Amazon Nimble Studio, sign into the [Nimble Studio console](https://console.aws.amazon.com/nimblestudio) and select your region. For the full list of regions where Nimble Studio is available, see the AWS Region Table. Nimble Studio offers pay-as-you-go pricing. For more information, see [Amazon Nimble Studio pricing](https://aws.amazon.com/nimble-studio/pricing/).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/07/nimble-studio-seamless-iam-access-studio-components/
