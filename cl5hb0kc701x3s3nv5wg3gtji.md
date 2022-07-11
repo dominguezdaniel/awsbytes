@@ -1,0 +1,9 @@
+## Amazon Athena enhances console and API support for parameterized queries
+
+[Amazon Athena](https://aws.amazon.com/athena/) announced enhancements to its console and API which provide more flexibility when using parameterized queries. You can now run parameterized queries directly from the Athena console and an enhanced API that no longer requires you to prepare SQL statements in advance. With today’s launch, it is now easier than before to take advantage of the reusability, simplification, and security benefits of parameterized queries.
+
+Parameterized queries are often used when a query has criteria that changes from one execution to the next. Available today, users can now parameterize and run such queries directly in the Athena console. When running queries with parameters, you will see a user interface that allows you to enter the parameter values directly, eliminating the complexity of modifying the SQL directly. Developers using parameterized queries in their applications can take advantage of an enhanced [query execution API](https://docs.aws.amazon.com/athena/latest/APIReference/API_StartQueryExecution.html) which allows you to provide the execution parameters and SQL in a single call.
+
+Start using these enhancements today in the Athena console, AWS CLI, API, or SDK. To learn how to leverage these features in your applications, see [Using Amazon Athena parameterized queries to provide data as a service](https://aws.amazon.com/blogs/big-data/use-amazon-athena-parameterized-queries-to-provide-data-as-a-service/) and [Querying with parameterized queries](https://docs.aws.amazon.com/athena/latest/ug/querying-with-prepared-statements.html) in the Athena user guide.
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/07/amazon-athena-enhances-console-api-parameterized-queries/
