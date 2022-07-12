@@ -1,0 +1,12 @@
+## Announcing general availability (GA) of Automated Materialized View for Amazon Redshift
+
+Amazon Redshift announces GA of [Automated Materialized View](https://docs.aws.amazon.com/redshift/latest/dg/materialized-view-auto-mv.html) (AutoMV) that helps you to lower query latency for repeatable workloads. AutoMV minimizes your effort for manually creating and managing materialized views and provides you the same performance benefits of user-created materialized views. Dashboard queries used to provide quick views of key performance indicators (KPIs), events, trends, and other metrics are some examples of workloads that can benefit from AutoMV. Reporting queries scheduled at various frequencies may also benefit from AutoMV.
+
+Materialized views are a powerful tool for improving query performance, and you could set these up if you have well understood workloads. However, you might have increasing and changing workloads where query patterns are not predictable.
+
+AutoMV in Amazon Redshift continually monitors the workload using machine learning to decide whether a new materialized view will be beneficial for your workload. AutoMV balances the cost of creating and keeping materialized views up-to-date vs. expected improvements to query latency. The system also monitors previously created AutoMVs and drops them when they are no longer beneficial to your workload. This avoids expending resources to keep unused AutoMVs fresh.
+
+AutoMV for Amazon Redshift is generally available in the following [AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/): US East (Ohio), US East (N. Virginia), Asia Pacific (Mumbai), US West (N. California), Europe (Frankfurt), Asia Pacific (Seoul), Canada (Central), Europe (Stockholm), Europe (Milan), Africa (Cape Town), Asia Pacific (Osaka), Europe (London), Europe (Paris), South America (São Paulo), Asia Pacific (Hong Kong), Middle East (Bahrain), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Osaka), Asia Pacific (Jakarta). 
+To learn more about AutoMV, please visit the [documentation](https://docs.aws.amazon.com/redshift/latest/dg/materialized-view-auto-mv.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/07/automated-materialized-view-amazon-redshift/
