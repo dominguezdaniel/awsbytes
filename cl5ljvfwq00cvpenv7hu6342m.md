@@ -1,0 +1,11 @@
+## AWS Firewall Manager now supports AWS Network Firewall strict rule order with alert and drop configurations
+
+AWS Firewall Manager now enables you to centrally deploy AWS Network Firewalls with additional strict rule order, default deny, and default drop configurations.
+
+Starting today, you can use AWS Firewall Manager to specify the precise order by which AWS Network Firewalls should evaluate rules, making it easier to write and process Network Firewall rules. For example, you can choose to evaluate a drop rule before a pass rule, or you can choose to evaluate an alert rule followed by a drop rule, followed by another alert rule. AWS Firewall Manager enables you to centrally configure strict rule ordering for both stateful firewall rule groups and firewall policies. When you configure a firewall to use strict ordering, rule groups are evaluated by order of priority, starting from the lowest number, and the rules in each rule group are processed in the order in which they're defined. Once strict rule order has been enabled, you can specify a default action of Drop and/or Alert without having to write additional firewall rules.
+
+AWS Firewall Manager is a security management service that acts as a central place for you to configure and deploy firewall rules across accounts and resources in your organization. With Firewall Manager, you can deploy and monitor rules for AWS WAF, AWS Shield Advanced, VPC security groups, AWS Network Firewall, Amazon Route 53 Resolver DNS Firewall and third-party firewalls across your entire organization. Firewall Manager ensures that all firewall rules are consistently enforced, even as new accounts and resources are created.
+
+To get started, see the AWS Firewall Manager [documentation](https://docs.aws.amazon.com/waf/latest/developerguide/network-firewall-policies.html) for more details and the [AWS Region Table](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) for the list of regions where AWS Firewall Manager is currently available. To learn more about AWS Firewall Manager, its features, and its pricing, visit the [AWS Firewall Manager website](https://aws.amazon.com/firewall-manager/).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/07/aws-firewall-manager-supports-network-strict-rule-alert-configurations/
