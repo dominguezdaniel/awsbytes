@@ -1,0 +1,11 @@
+## Amazon Aurora PostgreSQL-compatible edition now supports R6i instances
+
+[Amazon Aurora](https://aws.amazon.com/aurora/) now supports [R6i instances](https://aws.amazon.com/ec2/instance-types/r6i/) powered by 3rd generation Intel Xeon Scalable processors. R6i instances are the 6th generation of Amazon EC2 memory optimized instances, designed for memory-intensive workloads. These instances are built on the AWS [Nitro System](https://aws.amazon.com/ec2/nitro/), a combination of dedicated hardware and lightweight hypervisor, which delivers practically all of the compute and memory resources of the host hardware to your instances. R6i instances are currently available when using Amazon Aurora PostgreSQL-Compatible Edition.
+
+To meet customer demands for increased scalability, R6i instances provide a new instance size of 32xlarge with 128 vCPUs and 1,024 GiB of memory - 33% more vCPUs and memory than the largest R5 instance. R6i instances give customers up to 50 Gbps of networking speed, 2x that of R5 instances, and up to 20% higher memory bandwidth per vCPU compared to R5 instances.
+
+You can launch new instances in the [Amazon RDS Management Console](https://console.aws.amazon.com/rds/home) or using the [AWS CLI](https://docs.aws.amazon.com/cli/latest/reference/rds/create-db-instance.html). Upgrading a database instance to R6i requires a simple instance type modification, using the same steps as any other instance modification. The R6i database instances are supported on Aurora PostgreSQL 12.9 and higher, 13.5 and higher, and 14.3 and higher versions. For more details, refer to the [documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Modifying.html).
+
+For complete information on pricing and regional availability, please refer to the [Amazon Aurora pricing page](https://aws.amazon.com/rds/aurora/pricing/). Review our [technical documentation](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.DBInstanceClass.html) for more details.
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/07/amazon-aurora-postgresql-compatible-edition-r6i-instances/
