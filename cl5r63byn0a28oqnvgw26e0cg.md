@@ -1,0 +1,11 @@
+## Amazon Redshift announces open source ODBC driver with binary protocol support and enhanced performance
+
+The [Amazon Redshift](https://aws.amazon.com/redshift/) ODBC driver is now open source and available for the user community under the Apache-2.0 license. With this release, customers will gain enhanced visibility to the driver implementation and can contribute to its development. Users can browse the code for the ODBC driver on the relevant AWS GitHub repository, submit driver functionality enhancements through Github pull requests, and report issues for review.
+
+AWS is also introducing a binary protocol support for Amazon Redshift. With binary protocol enabled, data from the Amazon Redshift cluster is sent to the ODBC driver without being converted to textual format, and is kept in binary format. The binary format provides an average of 30% decrease in data sent over the wire resulting in faster end-to-end query performance for queries returning large result-sets. For example, internal tests have shown end-to-end query times for queries returning over 100 columns and over one million rows have had a 43% speed-up. Binary protocol is enabled by default for all users using the latest ODBC driver, as well as the latest JDBC & Python drivers.
+
+The Amazon Redshift ODBC driver Github repository is located [here](https://github.com/aws/amazon-redshift-odbc-driver). The driver currently supports Windows and Linux operating system. Mac OS support will be added in upcoming releases. Please note that the open source Amazon Redshift ODBC driver version has been updated to 2.x going forward, while the previous closed-source version (the 1.x version branch) will only be updated with critical security updates. 
+
+It is recommended that all customers upgrade to the latest driver version for improved functionality and performance. Please refer to the [documentation](https://docs.aws.amazon.com/redshift/latest/mgmt/odbc20-install.html) for installation guidance.
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/07/amazon-redshift-open-source-odbc-driver-binary-protocol-support-enhanced-performance/
