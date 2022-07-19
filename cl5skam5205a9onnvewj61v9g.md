@@ -1,0 +1,9 @@
+## Amazon Braket SDK adds support for near-real time cost tracking
+
+[Amazon Braket](https://aws.amazon.com/braket/), the quantum computing service from AWS, makes it easier for customers to conduct scientific research and software development with quantum computers. Today, we are excited to announce the launch of [a new cost tracking function in our Braket SDK](https://github.com/aws/amazon-braket-sdk-python), providing customers the ability to monitor their quantum computing costs more easily and quickly. Rather than waiting for an AWS bill, by adding only a few lines of code, estimated costs are now available immediately after each quantum task is processed, either on a quantum processing unit (QPU) or on-demand simulator.
+
+Prior to this launch, customers had to derive quantum execution time and pricing information from different sources to track costs themselves, wait until the next billing cycle, or use cost optimization and budgeting tools such as the [AWS Cost Management](https://aws.amazon.com/aws-cost-management/) suite. Now, customers can use the tracker to get near real time cost estimates for specific quantum operations along with other information, such as execution duration. By incorporating the tracker in their code, customers can build out custom logic to implement spending limits to help manage budgets and avoid unexpected charges.
+
+The cost tracking tool is now available as part of the Braket SDK in all [regions](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/) where Amazon Braket is available. To get started refer to our [documentation](https://docs.aws.amazon.com/braket/latest/developerguide/braket-pricing.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/07/amazon-braket-sdk-near-real-time-cost-tracking/
