@@ -1,0 +1,11 @@
+## Amazon Athena adds visual query analysis and tuning tools
+
+[Amazon Athena](https://aws.amazon.com/athena/) users can now analyze and tune their queries using interactive, visual tools. Optimizing queries and debugging failures are challenging tasks that often require knowledge of query behavior and a careful approach to tuning query logic. With today’s launch, you can now use the Athena console to analyze your queries with tools that make it simpler to debug errors and improve performance.
+
+To help you understand how a query will execute before it’s run, you can now access an interactive visualization of the query plan. With a single click, you can generate the query plan and use it to inspect the operators, joins, and data processed at each step in your query. After your query executes, new query-level metrics show the time spent in queuing, planning, and execution stages as well as the rows and size of data processed and output by your query. Metrics are displayed as an embedded console visualization but can also be accessed through a new [query statistics API](https://docs.aws.amazon.com/athena/latest/APIReference/API_GetQueryRuntimeStatistics.html).
+
+For queries that warrant deeper analysis, you can now examine granular execution details presented as an interactive graph that allows you to trace the flow of data through your query. Use the execution details to identify bottlenecks in complex queries, inspect operators and detailed performance statistics at each stage, validate the impact of query predicates, and more.
+
+To learn how to apply these tools to your queries, watch a video tutorial on the [AWS YouTube channel](https://www.youtube.com/watch?v=7JUyTqglmNU). For more information, see [Viewing execution plans for SQL queries](https://docs.aws.amazon.com/athena/latest/ug/query-plans.html) and [Viewing statistics and execution details for completed queries](https://docs.aws.amazon.com/athena/latest/ug/query-stats.html).
+
+> Source: https://aws.amazon.com/es/about-aws/whats-new/2022/07/amazon-athena-visual-query-analysis-tuning-tools/
