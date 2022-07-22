@@ -13,7 +13,9 @@ Video ingest and delivery are available around the world over a managed network 
 To get started, see the following list of resources:
 
 [Blog Post](https://aws.amazon.com/blogs/media/broadcast-from-a-browser-with-the-amazon-ivs-web-broadcast-sdk/)
+
 [User Guide](https://docs.aws.amazon.com/ivs/latest/userguide/broadcast-web.html)
+
 [Github Repo](https://aws.github.io/amazon-ivs-web-broadcast/)
 
 > Source: https://aws.amazon.com/about-aws/whats-new/2022/07/amazon-interactive-video-service-includes-web-broadcast-sdk/
