@@ -1,0 +1,11 @@
+## Amazon Fraud Detector launches Account Takeover Insights (ATI)
+
+AWS announced that Amazon Fraud Detector (AFD) now supports Account Takeover Insights (ATI) model, a low-latency fraud detection machine learning (ML) model specifically designed to detect accounts that have been compromised through stolen credentials, phishing, social engineering, or other forms of account takeover. The ATI model is designed to detect up to 4 times more ATI fraud than traditional rules-based account takeover solutions while minimizing the level of friction for legitimate users.
+
+Each year, billions of accounts are compromised by bad actors. Many companies, even those with sophisticated fraud teams, lack any protections or use rules-based solutions to detect compromised accounts since they are simple to create and easy to scale.
+
+The ATI model makes it easy for customers to improve account takeover detection by incorporating ML models without needing to collect fraud labels or perform advanced data engineering. To get started, you can simply upload or stream raw unlabeled data from online logins. Behind the scenes, the ATI pipeline handles all of the necessary steps for validating and transforming data, building a model, and deploying it to production; the model is designed to learn from the behavioral patterns of the users and thereby distinguish familiar logins from the anomalous ones. Amazon Fraud Detector is designed to automatically scale to handle up to 200 fraud predictions per second (or more upon request) and can return fraud evaluations with minimal latency, helping you evaluate all of the production traffic synchronously and with less friction for your users.
+
+The Account Takeover Insights model type is available in all regions where Amazon Fraud Detector is available: US East (Ohio), US East (N. Virginia), US West (Oregon), Europe (Ireland), Asia Pacific (Singapore) and Asia Pacific (Sydney). For additional details, see our [documentation](https://docs.aws.amazon.com/frauddetector/latest/ug/account-takeover-insights.html) and [pricing page](https://aws.amazon.com/fraud-detector/pricing/).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/07/amazon-fraud-detector-account-takeover-insights/
