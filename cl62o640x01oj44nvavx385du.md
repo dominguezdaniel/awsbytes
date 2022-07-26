@@ -1,0 +1,9 @@
+## AWS announces AWS Wickr (Preview)
+
+AWS Wickr is an end-to-end encrypted enterprise communication service that allows secure collaboration across messaging, voice and video calling, file sharing, and screen sharing. The service is now in preview. AWS Wickr helps organizations address evolving threats and regulations by combining security and administrative features designed to safeguard sensitive communications, enforce information governance policies, and retain information as required. Encryption takes place locally, on the endpoint. Every call, message, and file is encrypted with a new random key, and no one but intended recipients—not even AWS—can decrypt them.
+
+Information can be selectively logged to a secure, customer-controlled data store for compliance and auditing purposes. Users have full administrative control over data, which includes setting permissions, configuring ephemeral messaging options, and defining security groups. AWS Wickr integrates with additional services such as Active Directory (AD), single sign-on (SSO) with OpenID Connect (OIDC), and more. You can quickly create and manage AWS Wickr networks through the AWS Management Console. AWS Wickr also allows you to securely automate your workflows using Wickr Bots.
+
+AWS Wickr is available at no cost during the preview period. To get started, visit the [sign-up page](https://amazonmr.au1.qualtrics.com/jfe/form/SV_8Gp1oHQA0oja258). For more information, email wickr-interest@amazon.com and visit the [AWS Wickr webpage](https://aws.amazon.com/wickr/).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/07/aws-announces-aws-wickr-preview/
