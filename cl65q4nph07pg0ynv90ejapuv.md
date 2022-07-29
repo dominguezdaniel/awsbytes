@@ -1,0 +1,23 @@
+## Amazon OpenSearch Service now supports OpenSearch version 1.3
+
+You can now run OpenSearch and OpenSearch Dashboards version 1.3 on Amazon OpenSearch Service. This version includes several new features and improvements around observability, SQL and PPL, Alerting and Anomaly Detection. You can upgrade your domain seamlessly to OpenSearch version 1.3 from any of the previous OpenSearch versions, or from Elasticsearch versions 6.8 or 7.x directly, using the OpenSearch Service console or APIs.
+
+[OpenSearch](https://opensearch.org/) is a community-driven, open source search and analytics suite derived from Apache 2.0 licensed Elasticsearch 7.10.2 & Kibana 7.10.2. It consists of a data store, search engine (OpenSearch), and a user interface for visualization (OpenSearch Dashboards) . See our [frequently asked questions](https://aws.amazon.com/opensearch-service/the-elk-stack/what-is-opensearch/) about OpenSearch.
+
+We launched OpenSearch 1.0 in September 2021 and renamed our service to Amazon OpenSearch Service. As part of OpenSearch 1.0 launch in OpenSearch Service, we maintained backward compatibility to ensure you can upgrade from legacy Elasticsearch versions (until v7.10) to OpenSearch seamlessly. For a summary of changes that we did as part of OpenSearch 1.0 launch and the renaming, please see [documentation](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/rename.html). We have added several new features and improvements as part of various OpenSearch versions since then, such as transforms, data streams, notebooks in OpenSearch Dashboards, cross-cluster replication, improvements to anomaly detection, k-NN, and observability. With OpenSearch 1.3 we are adding the following improvements and new features:
+
+Observability: Users can now create custom Observability Applications to view the availability status of all their systems by providing a single view of system health, empowering developers and IT Ops to resolve issues faster and with fewer escalations. Some of the new features include the ability to get a unified view of logs, traces, and metrics with Application analytics dashboards, the ability to use correlation ID (based on the OpenTelemetry specification) to tie events together when viewing events and in-context visualisations, improvements to event analysis capabilities such as the ability to monitor a live tail of logs during an event, and view surrounding events to get a correlated picture of a metric. Refer to observability documentation for more information.
+
+PPL and SQL Improvements: PPL now supports run-time fields, which gives users the ability to define their schema when querying their index (instead of formatting during writing), allowing them to improve indexing time, and provides better presentation flexibility. In addition, we have several improvements to SQL and PPL capabilities such as support for ORDER BY and IN clause, ability to query multiple indices using comma separated values using PPL, and ability to change datatypes using CAST function in PPL. For a complete list of PPL and SQL improvements, see the OpenSearch 1.3 release notes. Refer to the PPL commands documentation and SQL queries documentation for more information.
+
+Continuous Mode for Transforms: You can now run transforms in a continuous mode based on a schedule. This enables you to keep an incremental transform job running on a group of source indices actively ingesting new data. At each run, only the modified buckets will be transformed, reducing the overhead for users who want to their transform up to date.
+
+Cluster Metric Monitors: Users can now create monitors within Alerts which help administrators feel more confident about managing the health of their clusters. The new monitor reports on dimensions including, but not limited to CPU usage, Java Virtual Machine (JVM) memory usage, and total number of documents coming into the cluster. Refer to documentation on cluster metrics monitoring for more information.
+
+New Detector Validation: We have now added an additional validation when setting up a new anomaly detector. Parameters specified as part of the detector will be validated to ensure that the criteria can initialize and that the detector will perform. Refer to anomaly detection documentation for more information.
+
+OpenSearch 1.3 is now available on Amazon OpenSearch Service across 26 regions globally. Please refer to the AWS Region Table for more information about Amazon OpenSearch Service availability.
+
+To learn more about Amazon OpenSearch Service, please visit the product page.
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/07/amazon-opensearch-service-supports-version-1-3/
