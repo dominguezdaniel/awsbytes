@@ -1,6 +1,6 @@
 ## Amazon OpenSearch Service now supports OpenSearch version 1.3
 
-You can now run OpenSearch and OpenSearch Dashboards version 1.3 on Amazon OpenSearch Service. This version includes several new features and improvements around observability, SQL and PPL, Alerting and Anomaly Detection. You can upgrade your domain seamlessly to OpenSearch version 1.3 from any of the previous OpenSearch versions, or from Elasticsearch versions 6.8 or 7.x directly, using the OpenSearch Service console or APIs.
+You can now run OpenSearch and OpenSearch Dashboards version 1.3 on [Amazon OpenSearch Service](https://aws.amazon.com/opensearch-service/). This version includes several new features and improvements around observability, SQL and PPL, Alerting and Anomaly Detection. You can upgrade your domain seamlessly to OpenSearch version 1.3 from any of the previous OpenSearch versions, or from Elasticsearch versions 6.8 or 7.x directly, using the OpenSearch Service console or APIs.
 
 [OpenSearch](https://opensearch.org/) is a community-driven, open source search and analytics suite derived from Apache 2.0 licensed Elasticsearch 7.10.2 & Kibana 7.10.2. It consists of a data store, search engine (OpenSearch), and a user interface for visualization (OpenSearch Dashboards) . See our [frequently asked questions](https://aws.amazon.com/opensearch-service/the-elk-stack/what-is-opensearch/) about OpenSearch.
 
