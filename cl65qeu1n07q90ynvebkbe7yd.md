@@ -1,0 +1,9 @@
+## Amazon SageMaker Canvas announces encryption support with customer managed keys
+
+AWS announce the support for encryption at rest for datasets and machine learning (ML) models on [Amazon SageMaker Canvas](https://aws.amazon.com/sagemaker/canvas/) using customer managed keys with AWS Key Management Service (KMS). Amazon SageMaker Canvas is a visual point-and-click interface that enables business analysts to generate accurate ML predictions on their own — without requiring any machine learning experience or having to write a single line of code. SageMaker Canvas makes it easy to access and combine data from a variety of sources, automatically clean data, and build ML models to generate accurate predictions with a few clicks.
+
+With this new capability, SageMaker Canvas now provides you flexibility and control to use your own keys to encrypt the file systems on the instances used to train models and generate insights, and the model data in your Amazon S3 bucket. You can create, import, rotate, disable, delete, define usage policies for, and audit the use of your encryption keys. This adds an additional layer of security to protect your data and your ML models.
+
+Encryption with customer managed keys is supported for imported datasets, ML model artifacts, and batch predictions for regression, multi-class classification, and binary classification models, with support for time series forecasting models coming later. Encryption support with Amazon SageMaker Canvas is available in all AWS regions where SageMaker Canvas is supported. To learn more and get started, please refer to the [Amazon SageMaker Canvas documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/canvas-kms.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/07/amazon-sagemaker-canvas-encryption-managed-keys/
