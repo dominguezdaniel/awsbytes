@@ -1,0 +1,7 @@
+## Amazon RDS for MySQL now supports enforcing SSL/TLS connections
+
+Amazon RDS for MySQL supports encrypted SSL/TLS connections to the database instances. Starting today, you can enforce SSL/TLS client connections to your RDS for MySQL database instance for enhanced transport layer security. To enforce SSL/TLS, simply enable the require_secure_transport parameter (disabled by default) through the Amazon RDS Management Console, the AWS CLI or the API. When the require_secure_transport parameter is enabled, a database client will be able to connect to the RDS for MySQL instance only if it can establish an encrypted connection. To learn more about enforcing encrypted client connections using require_secure_transport parameter, please refer to the [Amazon RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/securing-mysql-connections.html).
+
+Amazon RDS for MySQL makes it straightforward to set up, operate, and scale MySQL deployments in the cloud. Learn more about pricing details and regional availability at [Amazon RDS for MySQL](https://aws.amazon.com/rds/mysql/pricing/). Create or update a fully managed Amazon RDS database in the [Amazon RDS Management Console](https://console.aws.amazon.com/rds/home).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-rds-mysql-supports-ssl-tls-connections/
