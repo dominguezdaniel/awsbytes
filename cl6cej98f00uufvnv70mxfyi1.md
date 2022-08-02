@@ -1,0 +1,11 @@
+## AWS Training and Certification announces AWS Skill Builder subscriptions
+
+AWS Training and Certification announces [AWS Skill Builder subscriptions](https://explore.skillbuilder.aws/pages/59/subscriptions?trk=3fa2817e-e6f2-415f-b44a-df09501bec6d&sc_channel=el) to help learners and organizations advance cloud skills with exclusive, self-paced, digital training. According to the [Global Knowledge IT Skills and Salary Report](https://www.globalknowledge.com/us-en/content/salary-report/it-skills-and-salary-report/#gref), 76% of IT decision-makers report an IT skills gap, up from 31% in 2016. Gartner predicts global public cloud spending will grow 22% in 2022, from $396 billion to $482 billion. This demand creates cloud career opportunities for learners, and AWS Training and Certification can support their journey. To help close the IT skills gap, we have expanded our Skill Builder free offering of 500+ self-paced training courses to also offer Individual and Team subscriptions that provide hands-on, real-world learning content, created by AWS experts. 
+
+Individuals and teams looking to build AWS skills and advance careers with a Skill Builder subscription can access engaging training and exam prep resources, including new AWS Cloud Quest roles, AWS Builder Labs, AWS Jam events, and access to AWS Certification exam prep courses and AWS Certification Official Practice Exams. The Skill Builder Team subscription allows administrators to assign training to individuals, and built-in reports show administrators their team members’ course enrollment, progress, completion rates, and more.
+
+[Skill Builder Individual subscriptions](https://explore.skillbuilder.aws/learn/signin) are available in more than 200 countries and territories, and Team subscriptions are available in 17 countries. Content is currently available in up to 12 languages.
+
+Learn more about Skill Builder subscriptions including pricing, and sign up to begin your learning journey today
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/08/aws-training-certification-aws-skill-builder-subscriptions/
