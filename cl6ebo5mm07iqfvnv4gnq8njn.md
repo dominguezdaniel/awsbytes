@@ -1,0 +1,11 @@
+## Amazon CloudWatch metrics increases throughput by 150x
+
+[Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) custom metrics now supports a 50x higher capacity allowing you to send up to 1,000 metrics per call at a 3x faster default call rate and specify 3x more dimensions (up to 30) per metric. Customers rely on CloudWatch custom metrics to capture application-specific data that complements the automatic metrics provided by CloudWatch based on the AWS services you are using. With these improvements, customers can send the same volume of data with fewer API requests, leading to reduced costs.
+
+Modernizing applications often results in increased resources to monitor that generate more metrics. Likewise, customers often need to collect hundreds of metrics from applications running on their compute resources. With these custom metrics improvements, customers can batch metrics more efficiently when sending data to CloudWatch, resulting in fewer API requests and lower costs. The best way to optimize efficiency is to use the CloudWatch Agent which will automatically take advantage of these latest improvements to reduce API calls.
+
+With the increased complexity of managing modern applications, customers need more flexibility when defining and analyzing custom metrics. Consequently, the maximum number of metric dimensions has been increased from 10 to 30. Customers can now add additional context to their metrics which can be used to troubleshoot issues using CloudWatch Metrics Insights. Customers can also create custom metrics from Embedded Metric Format (EMF) logs with up to 30 dimensions.
+
+Custom Metrics enhancements are now available in all public AWS Regions, including the AWS GovCloud (US) Regions. Standard CloudWatch pricing applies – see pricing page for details. For further information, [see the custom metrics documentation](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/publishingMetrics.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-cloudwatch-metrics-increases-throughput/
