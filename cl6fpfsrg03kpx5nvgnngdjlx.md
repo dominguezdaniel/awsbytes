@@ -1,0 +1,7 @@
+## Amazon QuickSight launches API-based domain allow listing for developers to scale embedded analytics across different applications
+
+[Amazon QuickSight](https://aws.amazon.com/quicksight/) now supports API-based allow listing of domains where QuickSight data visualizations can be embedded. With this new capability, developers can scale their embedded analytics offerings including visuals, dashboards, QuickSight Q (natural language querying), and authoring experience across different applications for their different customers quickly. All of this is done without any infrastructure setup or management, while scaling to millions of users. For further details, visit the [blog](https://aws.amazon.com/blogs/big-data/scale-amazon-quicksight-embedded-analytics-with-new-api-based-domain-allow-listing/) and the [documentation](https://docs.aws.amazon.com/quicksight/latest/user/embedding-run-time.html).
+
+The new API-based domain allow listing is available in Amazon QuickSight  Enterprise Edition in all regions where QuickSight is available - US East (Ohio and N. Virginia), US West (Oregon), Asia Pacific (Mumbai, Seoul, Singapore, Sydney and Tokyo), Canada (Central), Europe (Frankfurt, Ireland and London), South America (São Paulo) and AWS GovCloud (US-West).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-quicksight-api-based-domain-listing-developers-scale-embedded-analytics-across-applications/
