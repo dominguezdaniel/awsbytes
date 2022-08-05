@@ -1,0 +1,9 @@
+## AWS Lambda announces tiered pricing
+
+AWS Lambda now provides tiered pricing for monthly Lambda function duration i.e. GB-Seconds of usage. The two additional pricing tiers provide discounts on your aggregate monthly on-demand function duration. Tiered pricing takes effect in the monthly billing cycle starting on Aug 1st, 2022.
+
+Customers can now save up to 20% on Lambda function duration based on their monthly usage, for functions running on both x86, and Arm (powered by AWS Graviton). The pricing tiers are applied separately for duration of functions running on x86 and Arm, respectively, in each region. For example, if you are running x86 Lambda functions in the US East (Ohio) region, you will pay $0.0000166667 for every GB-second for the first 6 billion GB-seconds per month, $0.0000150000 for every GB-second for the next 9 billion GB-seconds per month, and $0.0000133334 for every GB-second over 15 billion GB-seconds per month, in that region. Pricing for Requests, Provisioned Concurrency, and Provisioned Concurrency Duration remains unchanged. Tiered pricing is applied automatically to your monthly bill - there is no action required on your part and no change to the AWS Management Console, AWS CLI, or AWS SDKs. If you’re taking advantage of Compute Savings Plans for your Lambda functions, tiered pricing discounts will be applied to your usage first, followed by Compute Savings Plans discounts.
+
+Tiered pricing is available in all commercial and AWS GovCloud (US) regions where AWS Lambda is available, except for China regions. For more information, please see the [AWS Lambda Pricing page](https://aws.amazon.com/lambda/pricing/).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/08/aws-lambda-tiered-pricing/
