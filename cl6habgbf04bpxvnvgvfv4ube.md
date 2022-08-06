@@ -1,0 +1,9 @@
+## Amazon CloudWatch Evidently adds support for creating target customer segments for feature launches and experiments
+
+Amazon CloudWatch Evidently introduces a new feature that allows customers to define target audience (segment) for experiments or launches using customer defined criteria. For example, customers can choose to run an experiment or launch a feature on a custom segment of Chrome browser users, early adopters of their service or users in a certain geographic region. When launching new features or experiments, customers can configure it to include multiple segments and each segment can be configured to serve one or more variants of the feature, monitor key metrics such as page load times and conversions, then safely dial up traffic for general use.
+
+Evidently helps application developers safely validate new features across the full application stack. Developers can use Evidently to conduct experiments on new application features and identify unintended consequences, thereby reducing risk. Evidently is part of CloudWatch’s Digital Experience Monitoring capabilities including Amazon CloudWatch Synthetics for continuous outside-in monitoring and Amazon CloudWatch RUM for real user monitoring.
+
+To learn more about Evidently and segmentation, visit the [documentation](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Evidently-segments.html) and [user guide](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Evidently.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-cloudwatch-evidently-customer-segments-feature-launches-experiments/
