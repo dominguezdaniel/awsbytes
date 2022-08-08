@@ -13,3 +13,5 @@ Non-blocking right pane for secondary experiences like filters, threshold alerts
 The new experience will also be available for customers using QuickSight in Embedding mode. See here for more details about the changes to expect with the new look.
 
 Redesigned dashboard experience is now now available in all supported Amazon QuickSight regions - US East (Ohio), US East (N. Virginia), US West (Oregon), Europe (Frankfurt), Europe (Ireland), Europe (London), Asia Pacific (Mumbai), Asia Pacific (Seoul), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Canada (Central), South America (São Paulo), and AWS GovCloud (US-West). See [here](https://docs.aws.amazon.com/general/latest/gr/quicksight.html) for QuickSight regional endpoints.
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-quicksight-redesigned-dashboard-experience/
