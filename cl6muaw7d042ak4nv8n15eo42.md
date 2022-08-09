@@ -1,0 +1,15 @@
+## Amazon SageMaker Canvas expands capabilities to better prepare and analyze data for machine learning
+
+AWS announce expanded capabilities for data preparation and analysis in [Amazon SageMaker Canvas](https://aws.amazon.com/sagemaker/canvas/) including replacing missing values, replacing outliers, and the flexibility to choose different sample sizes for your datasets. Amazon SageMaker Canvas is a visual point-and-click interface that enables business analysts to generate accurate ML predictions on their own — without requiring any machine learning (ML) experience or having to write a single line of code. SageMaker Canvas makes it easy to access and combine data from a variety of sources, automatically clean data, and build ML models to generate accurate predictions with a few clicks.
+
+Starting today, SageMaker Canvas enables you to replace missing values to prepare your data faster, replace outliers in your data to build more accurate ML models, and the flexibility to choose the size of your dataset sample for quicker data analysis.
+
+Replace missing values: Missing values are a common occurrence in datasets and can impact accuracy of ML models. This new capability in SageMaker Canvas helps you replace (also referred to as impute) missing values in your data with custom values and prepare your data faster, while keeping your dataset intact . As an example, you can replace missing values in numeric columns with the mean or median of your data, or a custom value. This ensures your data is ready prior to building ML models.
+
+Replace outliers: Outliers or rare values in the range of your data can lead to a large variance or bias to build ML models. SageMaker Canvas now enables you to detect outliers in numeric columns and helps replace them with values within a specific range. You can choose either the standard deviation or a custom range and replace outliers with minimum and maximum values in this specified range.
+
+Choice of sizes for dataset samples: SageMaker Canvas now allows you to choose the size of your dataset sample to better analyze your data. Sampling is a statistical technique to identify patterns and trends in a large dataset by working with a small and manageable amount of data, while enabling accurate data analysis to build ML models. SageMaker Canvas uses the random sampling method that enables quicker insights into your data. By default, Canvas uses a sample size of 20,000 rows from your dataset. You can now choose between 500 rows to 40,000 rows for the sample data depending on your size of your dataset, giving you flexibility and control. 
+
+The new capabilities add to the range of [data preparation](https://docs.aws.amazon.com/sagemaker/latest/dg/canvas-prepare-data.html) capabilities and advanced data transformations supported by SageMaker Canvas. To learn more and get started, please see the documentation and the product page.
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-sagemaker-canvas-expands-capabilities-prepare-analyze-data-machine-learning/
