@@ -1,0 +1,11 @@
+## Amazon SageMaker Pipelines now supports sharing of pipeline entities across accounts
+
+You can now use [Amazon SageMaker Model Building Pipelines](https://docs.aws.amazon.com/en_us/sagemaker/latest/dg/pipelines.html) with [AWS Resource Access Manager](https://docs.aws.amazon.com/ram/latest/userguide/what-is.html) (AWS RAM) to securely share pipeline entities across AWS accounts and access shared pipelines through direct API calls. A multi-account strategy helps achieve data, project, and team isolation while supporting software development lifecycle steps. Cross-account pipeline sharing can support a multi-account strategy without the added hassle of logging in and out of multiple accounts. For example, cross-account pipeline sharing can improve machine learning testing and deployment workflows by sharing resources across staging and production accounts.
+
+Starting today, cross-account pipeline sharing is supported in all regions where Sagemaker Pipelines is available. For more information about availability, see [Supported Regions and Quotas](https://docs.aws.amazon.com/en_us/sagemaker/latest/dg/regions-quotas.html).
+
+Set up cross-account pipelines sharing to share pipeline resources with AWS accounts or business groups within your organization. Start using pipeline resources that were shared with your account using the SageMaker Python SDK. Pipeline resources can be shared with either read-only or extended pipeline execution permissions. Users with read-only permissions can see the details of any shared pipelines, including pipeline definitions and execution steps. Users with extended pipeline execution permissions can also start, stop, and retry pipeline executions.
+
+To get started with cross-account pipeline sharing, see [Cross-Account Support for SageMaker Pipelines](https://docs.aws.amazon.com/en_us/sagemaker/latest/dg/build-and-manage-xaccount.html#build-and-manage-xaccount-api-calls) in the Amazon SageMaker Developer Guide.
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-sagemaker-pipelines-sharing-pipeline-entities-across-accounts/
