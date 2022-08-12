@@ -1,0 +1,9 @@
+## Amazon Personalize now supports incremental bulk dataset imports
+
+We are excited to announce that [Amazon Personalize](https://aws.amazon.com/personalize/) now supports incremental bulk dataset imports; a new option for updating your data and improving the quality of your recommendations. Amazon Personalize enables developers to improve customer engagement through personalized product and content recommendations – no ML expertise required. Previously, Amazon Personalize supported two types of data ingestion: full bulk dataset imports for ingesting large datasets, and APIs (PutEvents, PutItems, PutUsers) for real-time ingestion. Now you can keep your existing datasets intact and add new bulk-loaded data without resupplying your entire dataset. Amazon Personalize will automatically update records with the current version if your incremental import duplicates any records found in your existing dataset, further simplifying the data ingestion process.
+
+Getting started with incremental bulk dataset import is easy. You can append new records to the existing data in your datasets by choosing Add to existing data in the console, or by specifying the import mode as INCREMENTAL in the CreateDatasetImportJob API operation.
+
+[Amazon Personalize](http://docs.aws.amazon.com/personalize) enables you to personalize your website, app, ads, emails, and more, using the same machine learning technology used by Amazon, without requiring any prior machine learning experience. To get started with Amazon Personalize, visit our [documentation](https://docs.aws.amazon.com/personalize/latest/dg/index.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-personalize-incremental-bulk-dataset-imports/
