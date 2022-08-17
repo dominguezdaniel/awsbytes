@@ -1,0 +1,9 @@
+## Amazon Lex now supports conditional branching for simplified dialog management
+
+[Amazon Lex](https://aws.amazon.com/lex/) is a service for building conversational interfaces into any application using voice and text. With Amazon Lex, you can quickly and easily build conversational bots (“chatbots”), virtual agents, and interactive voice response (IVR) systems. Today, we are excited to announce support for conditional branching capability so you can easily design conversations for your users. Instead of implementing custom code, you can add simple conditions directly to your Lex bot, and manage the conversation path dynamically based on user input and business knowledge.
+
+Conditions can be configured to handle scenarios at every turn of the conversation. For example, consider a bot designed to handle car rental calls. You can configure a customized welcome greeting based on customer profile (if customer = premium) or branch the interaction based on the user input (if rental = SUV). You can add up to four conditions and configure the bot response and next step for each condition. You can use a default condition to manage the conversation in case none of the conditions are triggered. By incorporating conditional branching in your bot, you reduce dependency on custom code and expedite the design and delivery of conversational interfaces.
+
+Conditional branching is available in all [AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) where Amazon Lex operates. To learn more, visit the Amazon Lex documentation page.
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-lex-conditional-branching-simplified-dialog-management/
