@@ -1,0 +1,13 @@
+## Amazon Rekognition Custom Labels now offers the ability to copy trained computer vision models across AWS accounts
+
+Amazon Rekognition Custom Labels is an automated machine learning (AutoML) service that allows customers to build custom computer vision models to classify and identify objects in images that are specific and unique to their business. Custom Labels does not require customers to have any prior computer vision expertise or knowledge.
+
+Starting today, customers will have the ability to copy trained Custom Labels models from one AWS account to another AWS account within the same region. This new capability makes it easier for customers to move Custom Labels models through various environments such as development, quality assurance, integration, and production without requiring to copy the original training/test dataset and re-training the model. Custom Labels models can be copied across accounts in less than 10 minutes.
+
+AWS partners and customers often use multiple AWS accounts that are provisioned based on software development phases (e.g. build, test, stage, deploy), or business function (e.g. data science, engineering), or combination of both. Previously, Custom Labels models could only be used in the AWS account in which it was trained. Customers who wanted to develop the model in development environment and then deploy it in production were required to copy their training dataset to each AWS account and train the model from scratch. This was a time consuming process slowing down the model deployment to production.
+
+With this new capability, AWS partners can develop and optimize a model in a development AWS account and copy over the latest version of the model to a customer operated production account. Similarly, enterprise customers with global operations can incorporate ML-Ops best practices, by developing and testing Custom Labels models in a development AWS account and move them over to a production account when ready for deployment, without having to retrain the model from scratch. Customers in regulated industries such as financial and insurance, can now share models across their development, testing, and production accounts without sharing sensitive training datasets.
+
+This feature is available in all Amazon Rekognition Custom Labels regions at no additional cost. To learn more about Amazon Rekognition Custom Labels and region availability, please visit our documentation and region table. Get started with [Amazon Rekognition Custom Labels](https://console.aws.amazon.com/rekognition/custom-labels#/) console today.
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-rekognition-custom-labels-copy-trained-computer-vision-models-across-aws-accounts/
