@@ -1,0 +1,11 @@
+## Amazon SageMaker Automatic Model Tuning now reuses SageMaker Training instances to reduce start-up overheads by 20x
+
+Amazon SageMaker Automatic Model Tuning now reduces the start-up time of each training job launched to tune your models by 20x on average (from 2.5 minutes to 8 seconds). In scenarios where you have a large number of hyperparameter evaluations, the reuse of training instances can cumulatively save 2 hours for every 50 sequential evaluations.
+
+SageMaker Automatic Model Tuning finds the best version of a model by running many training jobs on your dataset using specific [ranges](https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-define-metrics.html) of  hyperparameters that you choose for your algorithm. SageMaker Automatic Model Tuning then chooses the most optimal hyperparameter values that result in a model that performs the best.
+
+Before this launch, every training job launched as part of the tuning would incur on average 2.5 minutes of overhead to spin up and prepare a new cluster of SageMaker Training instances. This could become a bottleneck especially when training jobs would take only a few minutes to complete and overall slow down your tuning job. Starting today, SageMaker Automatic Model Tuning automatically re-uses a fixed cluster of training instances within each tuning job, thus reducing the average start-up time of each training job by 20x.
+
+SageMaker Automatic Model Tuning reusable clusters is now available in all commercial [AWS Regions](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/). This new feature is turned on by default when launching your tuning jobs. To learn more about SageMaker Automated Model Tuning, please read the technical [documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-how-it-works.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-sagemaker-automatic-model-tuning-reuses-sagemaker-training-instances-reduce-start-up-overheads/
