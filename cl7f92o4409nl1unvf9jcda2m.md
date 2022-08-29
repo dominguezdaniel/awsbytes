@@ -1,0 +1,9 @@
+## Amazon SageMaker Data Wrangler accelerates onboarding with sample dataset and guided feature discovery
+
+[Amazon SageMaker Data Wrangler](https://aws.amazon.com/sagemaker/data-wrangler/) reduces the time it takes to aggregate and prepare data for machine learning (ML) from weeks to minutes in Amazon SageMaker Studio, the first fully integrated development environment (IDE) for ML. With SageMaker Data Wrangler, you can simplify the process of data preparation and feature engineering, and complete each step of the data preparation workflow, including data selection, cleansing, exploration, and visualization, from a single visual interface. Customers using Data Wrangler can import data from Amazon S3, Amazon Athena, Amazon Redshift, Snowflake, Databricks Lakehouse Platform and more coming.
+
+Starting today, customers new to Data Wrangler can get started faster with Data Wrangler by using a sample dataset and following guided steps to navigate the product for the first time. Data Wrangler offers the public Titanic dataset widely used to teach and experiment with ML so customer no longer need to import their own data to get started. Data Wrangler now suggests actions to help first time users discover key features such as [Data Quality and Insights report](https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler-data-insights.html), a popular feature that check data quality and helps detect abnormalities in your data.
+
+To learn more about getting started with Amazon SageMaker Data Wrangler, visit the [blog](https://aws.amazon.com/blogs/machine-learning/explore-amazon-sagemaker-data-wrangler-capabilities-with-sample-datasets/) or [AWS documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-sagemaker-data-wrangler-accelerates-onboarding-sample-dataset-guided-feature-discovery/
