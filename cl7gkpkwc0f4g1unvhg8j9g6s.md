@@ -1,0 +1,7 @@
+## Amazon QuickSight launches a new user interface for dataset management
+
+[Amazon QuickSight](https://aws.amazon.com/quicksight/) launches a new user interface for dataset management. Previously, the dataset management experience was a popup dialog modal with limited space and all functionality shown up in one small modal. The new dataset management user interface replaces the existing popup dialog modal with a full-page experience, providing a clearer breakdown of dataset management categories, including Summary, Refresh, Permissions and Usage. This update also lays the foundation for future enhancement and features. For further details, visit [here](https://docs.aws.amazon.com/quicksight/latest/user/edit-a-data-set.html).
+
+The new dataset management user interface is now available in Amazon QuickSight Standard and Enterprise Editions in all QuickSight regions - US East (Ohio and N. Virginia), US West (Oregon), Canada(Central), South America (São Paulo), Europe (Frankfurt, Ireland and London), Asia Pacific (Mumbai, Seoul, Singapore, Sydney and Tokyo), and AWS GovCloud (US-West).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-quicksight-launches-new-user-interface-dataset-management/
