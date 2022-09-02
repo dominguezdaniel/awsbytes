@@ -1,0 +1,9 @@
+## AWS SAM CLI esbuild support is now generally available
+
+The [AWS Serverless Application Model (SAM)](https://aws.amazon.com/serverless/sam/) Command Line Interface (CLI) announces general availability of esbuild support in SAM CLI. The AWS SAM CLI is a developer tool that makes it easier to build, test, package, and deploy serverless applications. [Esbuild](https://esbuild.github.io/), “an extremely fast JavaScript bundler”, links JavaScript ( js , jsx , ts , and tsx ) and CSS dependencies as deployable assets for the web. Starting today, you can now use esbuild in the SAM CLI build workflow for your JavaScript applications.
+
+Developers using JavaScript and TypeScript can now use esbuild and [SAM Accelerate](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/accelerate.html) to rapidly iterate on their code changes in the cloud, achieving the same levels of productivity they're used to when testing locally, while testing against a realistic application environment in the cloud. Support for esbuild includes features such as Minification, Tree Shaking, Source Maps, Loader, External and Main-Fields which can help simplify AWS Lambda development with JavaScript and TypeScript.
+
+To learn more about this feature, please read details in the documentation. To get started, you can install the SAM CLI by following the instructions in the [documentation](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/09/aws-sam-cli-esbuild-support-available/
