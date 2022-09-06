@@ -1,0 +1,9 @@
+## AWS Controllers for Kubernetes (ACK) for Amazon RDS, AWS Lambda, AWS Step Functions, Amazon Managed Service for Prometheus, and AWS KMS now generally
+
+An additional 5 AWS Controllers for Kubernetes (ACK) service controllers have graduated to generally available status. Customers can now provision and manage AWS resources using ACK controllers for Amazon Relational Database Service (RDS), AWS Lambda, AWS Step Functions, Amazon Managed Service for Prometheus (AMP), and AWS Key Management Service (KMS).
+
+ACK lets you define and use AWS service resources directly from Kubernetes clusters. With ACK, you can take advantage of AWS managed services for your Kubernetes applications without needing to define resources outside of the cluster or run services that provide supporting capabilities like databases or message queues within the cluster. ACK now supports 12 AWS service controllers as generally available with an additional 13 in preview.
+
+To get started using ACK, visit the [documentation](https://aws-controllers-k8s.github.io/community/docs/community/overview/). You can also learn more in blog posts that demonstrate using ACK to [deploy an Amazon RDS database for a Kubernetes application](https://aws.amazon.com/blogs/database/deploy-amazon-rds-databases-for-applications-in-kubernetes/), as well as [deploying AWS Lambda functions](https://aws.amazon.com/blogs/compute/deploying-aws-lambda-functions-using-aws-controllers-for-kubernetes-ack/).
+
+> Source: https://aws.amazon.com/es/about-aws/whats-new/2022/09/aws-controllers-kubernetes-ack-rds-lambda-step-functions-prometheus-kms/
