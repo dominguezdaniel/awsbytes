@@ -1,0 +1,10 @@
+## Amazon SageMaker now supports deploying large models through configurable volume size and timeout quotas
+
+Amazon SageMaker enables customers to deploy ML models to make predictions (also known as inference) for any use case. You can now deploy large models (up to 500GB) for inference on Amazon SageMaker’s Real-time and Asynchronous Inference options by configuring the maximum EBS volume size and timeout quotas. This launch enables customers to leverage SageMaker's fully managed Real-time and Asynchronous inference capabilities to deploy and manage large ML models such as variants of GPT and OPT.
+
+Previously, SageMaker attached EBS volumes up to 30 GB in size to a SageMaker endpoint, which limited the maximum size of the model you can deploy. Now, the EBS volume size is configurable up to 500 GBs, enabling you to use larger models and package more resources for your inference needs. In addition, the container health check and download timeout quotas have also been made configurable up to 60 minutes, enabling you to have more time to download and load your model and associated resources. Together, these changes enable you to use SageMaker for deploying more advanced deep learning models that tend to be larger in size. For example, with the recently launched ml.p4d and ml.g5 instances, you can use this change to deploy large models that can leverage the memory across multiple GPUs for high performance inference.
+These new configuration options are available in all commercial regions that SageMaker is available.
+
+To get started, read our documentation [here](https://docs.aws.amazon.com/sagemaker/latest/dg/realtime-endpoints.html). For an example use case, read our blog [post](https://aws.amazon.com/blogs/machine-learning/deploy-large-models-on-amazon-sagemaker-using-djlserving-and-deepspeed-model-parallel-inference/) on how you can leverage this change together with DeepSpeed on SageMaker to distribute large models across multiple GPU devices for high performance inference.
+
+> Source: https://aws.amazon.com/es/about-aws/whats-new/2022/09/amazon-sagemaker-deploying-large-models-volume-size-timeout-quotas/
