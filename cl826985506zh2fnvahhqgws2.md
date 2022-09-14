@@ -1,0 +1,9 @@
+## Introducing Visual Conversation builder for Amazon Lex
+
+[Amazon Lex](https://aws.amazon.com/lex/) is a service for building conversational interfaces into any application using voice and text. With Amazon Lex, you can quickly and easily build conversational bots (“chatbots”), virtual agents, and interactive voice response (IVR) systems. We’re excited to introduce the Visual Conversation Builder, a drag and drop interface to visualize and build conversation flows in a no-code environment. The Visual Conversation Builder greatly simplifies bot design. In addition to the already available menu-based editor, and Lex APIs, the visual builder provides a complete view of the entire conversation flow in one location. It empowers any user to build engaging conversational experiences more quickly.
+
+Using the visual builder, you can build and manage complex conversations with dynamic paths. By adding conditions directly to your Lex bot, and manage the conversation path dynamically based on user input and business knowledge, all within a no-code environment. The Visual Conversation builder enables efficient collaboration between design and development team members, eliminating the need for another diagramming tool and reducing the time needed to build production-ready bots.
+
+The Visual Conversation Builder is generally available, for free, in all the AWS regions where Amazon Lex V2 operates. To learn more, read our [blog Announcing Visual Conversation Builder for Amazon Lex](https://aws.amazon.com/blogs/machine-learning/announcing-visual-conversation-builder-for-amazon-lex/) or visit the [Amazon Lex documentation](https://docs.aws.amazon.com/lexv2/latest/dg/visual-conversation-builder.html).
+
+> Source: https://aws.amazon.com/es/about-aws/whats-new/2022/09/amazon-visual-conversation-builder/
