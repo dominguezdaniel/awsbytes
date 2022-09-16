@@ -1,0 +1,7 @@
+## AWS App Runner now supports deployment using cross-region Amazon ECR image
+
+AWS App Runner now supports [Amazon ECR](https://aws.amazon.com/ecr/) images from any AWS region to create or update App Runner services. App Runner makes it easy for developers to quickly deploy containerized web applications and APIs to the cloud, at scale, and without having to manage infrastructure. With App Runner you can deploy your application from source code or a container image directly in the AWS cloud. Regardless of the source type, App Runner takes care of starting, running, scaling, and load balancing your service.
+
+Until now, for container image based deployments, App Runner supported Amazon ECR images from within the same AWS region in which you deploy your App Runner service. Now, you can use an Amazon ECR images stored in any AWS region to create or update your App Runner service. With this launch, you no longer need to replicate images to all regions where you want to run App Runner service helping you reduce your costs and operational overhead. To learn more about deploying container image based services in App Runner, see [image-based service](https://docs.aws.amazon.com/apprunner/latest/dg/service-source-image.html) section in the developer guide. To learn more about App Runner, see the [AWS App Runner Developer Guide](https://docs.aws.amazon.com/apprunner/latest/dg/what-is-apprunner.html).
+
+> Source: https://aws.amazon.com/es/about-aws/whats-new/2022/09/aws-app-runner-deployment-cross-region-amazon-ecr-image/
