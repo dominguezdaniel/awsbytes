@@ -1,0 +1,9 @@
+## Amazon EMR on EKS now supports Spark SQL through the StartJobRun API
+
+We are excited to announce that [Amazon EMR on EKS](https://aws.amazon.com/emr/features/eks/) release 6.7.0 and onwards includes the ability to run Apache Spark SQL scripts through the StartJobRun API. Spark SQL is a Spark module for structured data processing. Unlike the Spark DataFrame API, Spark SQL interfaces provide Spark with more information about the structure of both the data and computation being performed. Internally, Spark SQL uses this extra information to perform additional optimizations. With this release, you can run Spark SQL queries and Spark SQL-based ETL pipelines directly through Amazon EMR on EKS’ StartJobRun API.
+
+Amazon EMR on EKS users rely on the [StartJobRun API](https://docs.aws.amazon.com/emr-on-eks/latest/APIReference/API_StartJobRun.html) to kick-off Spark jobs. Previously, to run Spark SQL scripts, users had to embed their SQL scripts in interfaces such as PySpark, which required user modifications to existing Spark SQL scripts. As part of this release, a new Spark SQL job driver is added to the Amazon EMR on EKS’ base image that users use to run their Spark jobs. Users will now be able to supply SQL entry-point files to run Spark SQL queries on Amazon EMR on EKS using the StartJobRun API directly, without any modifications to existing Spark SQL scripts. This feature is available in all regions where Amazon EMR on EKS is available.
+
+To learn more about how to run Spark SQL scripts on Amazon EMR on EKS, please visit the [documentation](https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/emr-eks-jobs-spark-sql-parameters.html) page.
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/09/amazon-emr-eks-supports-spark-sql-through-startjobrun-api/
