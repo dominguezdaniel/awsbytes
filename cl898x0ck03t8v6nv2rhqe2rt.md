@@ -1,0 +1,11 @@
+## Amazon RDS Proxy now supports Amazon RDS for SQL Server
+
+[Amazon RDS Proxy](https://aws.amazon.com/rds/proxy/), a fully managed, highly available database proxy for [Amazon Relational Database Service (RDS)](https://aws.amazon.com/rds/), now supports [Amazon RDS for SQLServer](https://aws.amazon.com/rds/sqlserver/) running on major versions 2014 and later. Using Amazon RDS Proxy, customers can make applications more scalable, more resilient to database failures, and more secure.
+
+Amazon RDS Proxy sits between your application and the database to pool and share established database connections, improving database efficiency and application scalability. For Amazon for RDS SQL Server Multi-Availability Zone databases, Amazon RDS Proxy automatically connects to the standby database instance in case of a database failure, preserves connections from applications, and helps reduce failover times by up to 83%. With Amazon RDS Proxy, database credentials and access can be managed through AWS Secrets Manager and AWS Identity and Access Management (IAM), eliminating the need to embed database credentials in the application.
+
+You can enable Amazon RDS Proxy for your Amazon RDS for SQL Server database in just a few clicks on the Amazon RDS console and connect to the database by pointing your application to the RDS Proxy endpoint. View our [documentation](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-proxy.html) or read our [blog post](https://aws.amazon.com/blogs/database/scale-modern-serverless-applications-with-amazon-rds-proxy-for-sql-server/) to get started.
+
+Amazon RDS Proxy is available for Amazon Aurora with MySQL compatibility, Amazon Aurora with PostgreSQL compatibility, Amazon RDS for MariaDB, Amazon RDS for MySQL, Amazon RDS for PostgreSQL, and Amazon RDS for SQL Server. For supported regions and engine versions, see the [Amazon Aurora User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.Aurora_Fea_Regions_DB-eng.Feature.RDS_Proxy.html) or the [Amazon RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RDSFeaturesRegionsDBEngines.grids.html#Concepts.RDS_Fea_Regions_DB-eng.Feature.RDSProxy).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/09/amazon-rds-proxy-rds-sql-server/
