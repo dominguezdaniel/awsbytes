@@ -1,0 +1,11 @@
+## Announcing local clusters for Amazon EKS on Outposts
+
+AWS announces the general availability of local clusters for Amazon Elastic Kubernetes Service (EKS) on Outposts, which enable you to run highly available Kubernetes clusters in on-premises environments.
+
+Local clusters enable you to run the entire Amazon EKS cluster locally on Outposts, so you can mitigate the risk of application downtime that can result from temporary network disconnects to the cloud, such as those caused by fiber cuts or weather events. Because the entire Kubernetes cluster runs locally on Outposts, applications remain available, and you can perform cluster operations during network disconnects to the cloud. When connected to the cloud, Amazon EKS manages the availability of the Kubernetes control plane on Outposts, so you can simplify your Kubernetes operations. Local clusters run the same Kubernetes as Amazon EKS in the cloud, and automatically deploy the latest security patches to make it easier for you to maintain an up-to-date, secure cluster. You can use the same tooling you use with Amazon EKS in the cloud for a consistent experience across on-premises and cloud environments.
+
+Local clusters are generally available for use with Outposts racks. You can create local clusters from the following AWS Regions: US East (Ohio), US East (N. Virginia), US West (Oregon), US West (N. California), Europe (Frankfurt), Europe (London), Asia Pacific (Seoul), Asia Pacific (Tokyo), South America (São Paulo), Middle East (Bahrain).
+
+Get started by creating a cluster via the [Amazon EKS console](https://console.aws.amazon.com/eks/home#/clusters), or [connect with an Amazon EKS on Outposts specialist](https://aws.amazon.com/contact-us/sales-support-eks/). To learn more, read our [blog](https://aws.amazon.com/blogs/aws/deploy-your-amazon-eks-clusters-locally-on-aws-outposts) or visit the [AWS documentation](https://docs.aws.amazon.com/eks/latest/userguide/eks-outposts-local-cluster-overview.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/09/amazon-eks-outposts-local-clusters/
