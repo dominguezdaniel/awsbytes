@@ -1,0 +1,11 @@
+## Amazon FSx for Windows File Server now provides additional performance metrics and enhanced monitoring dashboard
+
+[Amazon FSx for Windows File Server](https://aws.amazon.com/fsx/windows/), a service that provides fully managed file storage built on Windows Server, now provides additional performance metrics for improved visibility into file system activity and an enhanced monitoring dashboard with performance insights and recommendations. You can use the new metrics and dashboard to right-size your file systems and optimize performance and costs.
+
+You could previously use performance metrics to monitor the throughput and IOPS delivered by the file system, the primary performance characteristics for most workloads. Now, using additional performance metrics that include file server CPU and memory usage and storage disk throughput and IOPS, you can understand and optimize performance and costs across an even wider range of workloads, including read/write-intensive workloads such as SQL databases or workloads with variable performance needs such as periodic reporting jobs. Using the enhanced monitoring dashboard, you can get performance recommendations – for example, to increase your file system’s disk I/O performance level if your workload is disk I/O-limited – that you can action with just a few clicks.
+
+The additional performance metrics and updated monitoring dashboard are available now, at no additional cost, for all new file systems in all AWS Regions and AWS GovCloud (US) where Amazon FSx is available. Existing file systems will support the new metrics and dashboard in the coming weeks during an upcoming maintenance window.
+
+To learn more, see [Monitoring metrics with Amazon CloudWatch](https://docs.aws.amazon.com/fsx/latest/WindowsGuide/monitoring-cloudwatch.html) in the Amazon FSx for Windows File Server User Guide.
+
+> Source: https://aws.amazon.com/es/about-aws/whats-new/2022/09/amazon-fsx-windows-file-server-additional-performance-metrics-enhanced-dashboard/
