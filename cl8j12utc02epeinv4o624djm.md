@@ -1,0 +1,7 @@
+## AWS App Runner now supports Node.js 16 managed runtime
+
+AWS App Runner adds Node.js v16 managed runtime for building and running node.js based web applications and APIs. App Runner allows you to deploy your application from source code or a container image directly in the AWS cloud. Regardless of the source type, App Runner takes care of starting, running, scaling, and load balancing your service. App Runner provides convenient platform-specific managed runtimes. Each one of these runtimes builds a container image from your source code and adds language runtime dependencies into your image. App Runner uses the managed runtime to build and deploy your application alleviating the need for you to develop and manage your own Dockerfiles.
+
+Starting today, you can build and run your node.js v16 based web application and APIs directly from your source code on App Runner. Node.js v16 is the active long-term support (LTS) node.js major version. To learn more about running your application using App Runner managed runtimes, see [code-based service](https://docs.aws.amazon.com/apprunner/latest/dg/service-source-code.html) section in the developer guide. To learn more about App Runner, see the [AWS App Runner Developer Guide](https://docs.aws.amazon.com/apprunner/latest/dg/what-is-apprunner.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/09/aws-app-runner-supports-node-js-managed-runtime/
