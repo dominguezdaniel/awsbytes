@@ -1,0 +1,11 @@
+## Amazon CloudWatch Container Insights launches lifecycle events for Amazon ECS
+
+Amazon CloudWatch Container Insights now provides lifecycle events for Amazon Elastic Container Service (ECS). With Container Insights you can monitor, isolate, and diagnose your containerized applications running on ECS. Now with the addition of lifecycle events, you can easily correlate metrics, logs and events in a single view for more complete operational visibility.
+
+Container environments have short lived resources and lifecycle events help to track the state changes on these resources throughout their lifespan, for example when tasks start or stop. ECS lifecycle events provide useful signals that indicate task health, such as tasks successfully moving from pending state to started. You can now display ECS lifecycle events in Container Insights, which provides a centralized health and performance view for ECS containers. You can now correlate spikes in CPU or memory of their ECS clusters, tasks or services with lifecycle events of the related resources.
+
+To get started, first enable Container Insights on your ECS cluster. Once enabled, navigate to the CloudWatch Container Insights console and toggle to Performance Monitoring view in the dropdown. The Lifecycle Events table is displayed on the cluster, service or task views. Click the Configure Lifecycle Events button to enable the event stream. Clicking the configure button will automatically create the event rules and log groups to collect lifecycle events for your ECS clusters. You can also select Log Insights from the Lifecycle Events table to run custom analytics and create additional visualizations.
+
+Lifecycle events are now available in all public AWS Regions, including the AWS GovCloud (US) Regions and China (Beijing, operated by Sinnet), and China (Ningxia, operated by NWCD). Lifecycle events comes with no extra cost and standard CloudWatch Container Insights pricing applies – see pricing page for details. For further information, see the [Container Insights documentation](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/container-insights-ECS-lifecycle-events.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/09/amazon-cloudwatch-container-insights-lifecycle-events-amazon-ecs/
