@@ -1,0 +1,9 @@
+## Bottlerocket is now supported by Amazon Inspector
+
+Bottlerocket, a Linux-based operating system that is purpose built to run container workloads, is now integrated with [Amazon Inspector](https://aws.amazon.com/inspector/). Customers that have Inspector EC2 scanning already enabled do not need to take any additional action. If Amazon Inspector discovers a vulnerability, it will recommend an update to the version of Bottlerocket that fixes that vulnerability.
+
+Amazon Inspector is a vulnerability management service that scans EC2 and container workloads for software vulnerabilities and unintended network exposure. Amazon Inspector leverages the AWS System Manager (SSM) agent to scan for vulnerabilities. In Bottlerocket hosts, the SSM agent runs within [the control host container](https://github.com/bottlerocket-os/bottlerocket#control-container), so you need to make sure it is enabled in your hosts.
+
+Integration with Amazon Inspector is available in AWS Commercial Regions for Bottlerocket versions starting from 1.7.0. Standard pricing rates for Amazon Inspector apply. Bottlerocket is an [open-source Linux distribution](https://github.com/bottlerocket-os) with an open development model and community participation. It’s available at no additional cost and is fully supported by Amazon Web Services. You can learn more about Bottlerocket by visiting the AWS product page and Bottlerocket’s Github repository. For support, please contact the Bottlerocket team through your designated AWS representative or by opening a new issue on GitHub.
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/09/bottlerocket-supported-amazon-inspector/
