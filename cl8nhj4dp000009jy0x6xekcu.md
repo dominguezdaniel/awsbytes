@@ -1,0 +1,11 @@
+## Snow Amazon Linux 2 (AL2) Amazon Machine Image (AMI) available on all Snow Family jobs
+
+AWS Snow Family now offers the Snow Amazon Linux 2 (AL2) Amazon Machine Image (AMI) for all Snowball Edge and Snowcone jobs. With this launch, customers can get started running edge workloads on Snow devices using the Snow AL2 AMI. The Snow AL2 AMI is maintained and provided by AWS Snow, making it easier for customers who do not want to create their own AMI for Snow devices.
+
+Prior to this launch, customers had a 2-step process to provisioning AMIs on Snow jobs. First, customers had to create their own AMI from Ubuntu or CentOS offerings from AWS Marketplace and then select these AMIs as part of the Snow job order. This 2-step process provided more control to the customers in selecting the right AMIs for their jobs. For customers not familiar with the AMI creation process, the 2-step process required more preparation before placing a Snow job order with AMIs on them. Now, customers who do not want to bring their own AMIs to a Snow job can add a Snow AL2 AMI to their Snow job with 1-click selection at the time of job ordering.
+
+To use this feature, select Snow AL2 AMI in the ‘Compute using EC2 instances’ section of the Snow console and the AMI will be installed on the device. Once the device reaches the customer site, customer will have the option to inject new SSH keys or use an existing SSH keys using OpsHub software or CLI.
+
+Snow AL2 AMI is available on all Snowball Edge and Snowcone jobs ordered on or after 9/18/22, and this feature is available [in all AWS Regions where AWS Snow Family is available](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/) with no additional cost to add Snow AL2 to customer jobs. To learn more, visit the [AWS Snow Family documentation](https://docs.aws.amazon.com/snowball/index.html). Log into the [AWS Snow Family console](https://console.aws.amazon.com/importexport/home) to get started.
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/09/amazon-snow-linux-2-ami-snow-family-jobs/
