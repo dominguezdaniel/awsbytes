@@ -1,0 +1,15 @@
+## Amazon S3 Object Lambda now supports using your own code to modify the results of S3 HEAD and LIST API requests
+
+[Amazon S3 Object Lambda](https://aws.amazon.com/s3/features/object-lambda/) now supports adding your own code to S3 HEAD and LIST API requests, in addition to S3 GET requests. With S3 Object Lambda, you can modify the data returned by S3 GET requests to filter rows, dynamically resize images, redact confidential data, and much more. Now, you can also use S3 Object Lambda to modify the output of S3 LIST requests to create a custom view of all objects in a bucket and S3 HEAD requests to modify object metadata such as object name and size. With this update, S3 Object Lambda now uses AWS Lambda functions to automatically process the output of S3 GET, HEAD, and LIST requests.
+
+Previously, S3 Object Lambda supported processing the output of an S3 GET request, making it ideal for converting data formats (for example, XML to JSON), resizing and watermarking images, and redacting confidential data. Other S3 API calls, such as HEAD and LIST requests, made to S3 Object Lambda would return the standard S3 API response. Now, you can use S3 Object Lambda to enrich your object lists by querying an external index that contains additional object metadata, filter and mask your object lists to only include objects with a specific object tag, or add a file extension to all the object names in your object lists. For example, if you have an S3 bucket with multiple discrete data sets, you can use S3 Object Lambda to filter an S3 LIST response depending on the requester. With S3 Object Lambda, you can save on storage costs by easily presenting multiple views of your data for different applications, without having to run complex software and infrastructure.
+
+With just a few clicks in the AWS Management Console, you can configure a Lambda function and attach it to a S3 Object Lambda Access Point. From that point forward, S3 will automatically call your Lambda function to process any data retrieved through the S3 Object Lambda Access Point, returning a transformed result back to the application. You can also now author a Lambda function that is specific to each supported S3 API (GET, HEAD, and LIST).
+
+You can get started with S3 Object Lambda through the AWS Management Console, AWS Command Line Interface (CLI), Application Programming Interface (API), or AWS Software Development Kit (SDK) client.
+
+S3 Object Lambda is available in all AWS Regions, including AWS GovCloud (US) Regions, the AWS China (Beijing) Region, operated by Sinnet, and the AWS (Ningxia) Region, operated by NWCD, with the exception of the AWS Asia Pacific (Osaka) Region.
+
+For pricing information, please visit the Amazon S3 pricing page. To learn more about S3 Object Lambda, visit the product detail page and getting started tutorial in the [S3 user guide](https://docs.aws.amazon.com/AmazonS3/latest/userguide/transforming-objects.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/10/amazon-s3-object-lambda-code-modify-results-s3-head-list-api-requests/
