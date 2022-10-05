@@ -1,0 +1,13 @@
+## Amazon SQS announces Server-Side Encryption with Amazon SQS-managed encryption keys (SSE-SQS) by default
+
+As of November 23, 2021, [Amazon Simple Queue Service](https://aws.amazon.com/sqs/) (SQS) supported Server-Side Encryption with Amazon SQS-managed encryption keys ([SSE-SQS](https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-sqs-server-side-encryption-keys-sse/)) to protect sensitive data. Today, Amazon SQS announces SSE-SQS encryption by default for newly created queues. SSE-SQS can help you build security-sensitive applications to support your encryption compliance and regulatory requirements.
+
+Amazon SQS is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications. Using Amazon SQS, you can send, store, and receive messages between software components at any volume without losing messages or requiring other services to be available. Customers are increasingly decoupling their monolith applications to microservices and moving sensitive workloads to Amazon SQS, such as financial and healthcare applications with encryption requirements. Now SSE-SQS helps you transmit data securely and improve your security posture by default.
+
+Amazon SQS already supports server-side encryption with customer-provided encryption keys using the [AWS Key Management Service](https://aws.amazon.com/kms/) (SSE-KMS). When you create a new queue, it will be encrypted by SSE-SQS by default. Alternatively, you can use SSE-KMS encryption if you manage KMS keys. With the SSE-SQS, you do not need to create or manage any encryption keys. Both encryption options help reduce the operational burden and complexity involved in protecting data. They encrypt data using industry-standard AES-256 algorithms, so that only authorized roles and services can access data.
+
+With SSE-SQS, you do not have to make any code or application modifications to encrypt your data. Encryption at rest using SSE-SQS is provided at no additional charge. SQS handles the encryption and decryption of your data transparently and continues to deliver the same performance that you have come to expect.
+
+Support for SSE-SQS by default is available in all AWS Commercial Regions. To learn more about SSE-SQS on Amazon SQS, please visit the [Amazon SQS documentation](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-server-side-encryption.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/10/amazon-sqs-announces-server-side-encryption-ssq-managed-sse-sqs-default/
