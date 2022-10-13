@@ -1,0 +1,9 @@
+# AWS Lambda now supports event filtering for Amazon MSK, Self-Manged Kafka, Amazon MQ for Apache ActiveMQ, and Amazon MQ for RabbitMQ as event sources
+
+AWS Lambda now supports content filtering options for Amazon MSK, Self-Managed Kafka, Amazon MQ for Apache ActiveMQ, and Amazon MQ for RabbitMQ. With event pattern content filtering, customers can write complex rules so that their Lambda function is only invoked to process meaningful events. This helps reduce traffic to customers’ Lambda functions, simplifies code, and reduces overall cost. Filtering was already available for SQS, DynamoDB, and Kinesis as event sources for Lambda.
+
+Customers can specify up to 5 filter criteria when creating or updating the event source mappings for their Lambda functions triggered by an event source that supports filtering. The filters are combined using OR logic by default. In other words, an event/payload meeting any of the filtering criteria defined will be passed on to trigger a Lambda function while an event/payload not matching any of the filtering criteria will be dropped. This feature helps reduce function invocations for microservices that only use a subset of events available, removing the need for the target Lambda function or downstream applications to perform filtering.
+
+Content filtering is available in all commercial regions that AWS Lambda is available. There is no additional cost for using this feature beyond the standard price for AWS Lambda. To learn more about the feature, visit the [AWS Lambda documentation for event filtering](https://docs.aws.amazon.com/lambda/latest/dg/invocation-eventfiltering.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/10/aws-lambda-event-filtering-amazon-msk-kafka-mq-apache-activemq-amazon-mq-rabbit-mq/
