@@ -1,0 +1,9 @@
+# Amazon RDS now supports automating connectivity set up between an existing RDS or Aurora database and an EC2 compute instance
+
+Starting today, you have the option to automatically set up connectivity between an existing [Amazon Relational Database Services (Amazon RDS)](https://aws.amazon.com/rds/) or [Amazon Aurora](https://aws.amazon.com/rds/aurora/) database and an [Amazon Elastic Compute Cloud (Amazon EC2)](https://aws.amazon.com/pm/ec2/) compute instance. From the Amazon RDS console, you can choose an action to set up connection between your RDS or Aurora database and an EC2 instance. Amazon RDS automatically sets up your related network settings to enable a secure connection between the EC2 instance and the RDS database.
+
+This automation eliminates additional manual networking tasks such as setting up a VPC, security groups, subnets, and ingress/egress rules to establish a connection between your application and database. It improves productivity for new users and application developers, who can now quickly launch a database instance and seamlessly connect to an application on a compute instance within minutes. 
+
+Learn more about setting up connectivity to a compute resource from your RDS or Aurora database console in the [Amazon RDS User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/ec2-rds-connect.html) and the [Amazon Aurora User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/ec2-rds-connect.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/10/amazon-rds-automating-connectivity-set-up-existing-rds-aurora-database-ec2-compute-instance/
