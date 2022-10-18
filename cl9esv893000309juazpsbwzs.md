@@ -1,0 +1,9 @@
+# Announcing AWS Parameters and Secrets Lambda Extension
+
+AWS launched the AWS Parameters and Secrets Lambda Extension, a convenient method for AWS Lambda users to retrieve parameters from AWS Systems Manager Parameter Store and secrets from AWS Secrets Manager. AWS Lambda customers can leverage this extension to improve their application performance as it decreases the latency and the cost of retrieving parameters and secrets. Previously, customers had to initialize either the core library of a service or the entire service SDK inside a Lambda function for retrieving secrets and parameters, now they can simply use the extension. This lightweight and easy-to-use extension caches parameters and secrets, and persists them throughout the lifecycle of the Lambda function. The extension runs inside an isolated execution environment using the same permissions as the role of the user running the Lambda function.
+
+This feature is available at no additional charge in all AWS Regions and AWS GovCloud (US) Regions. For more information, visit [AWS Systems Manager Parameter Store documentation](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html), and [AWS Secrets Manager documentation](https://docs.aws.amazon.com/secretsmanager/latest/userguide/retrieving-secrets_lambda.html).
+
+To learn about AWS Systems Manager, visit the product detail page. To learn about AWS Secrets Manager, visit the [product detail page](https://aws.amazon.com/secrets-manager/).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/10/aws-parameters-secrets-lambda-extension/
