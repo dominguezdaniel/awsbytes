@@ -1,0 +1,9 @@
+# Amazon SageMaker Canvas announces Quick build support for time-series forecast models
+
+[Amazon SageMaker Canvas](https://aws.amazon.com/sagemaker/canvas/) announces Quick build support for time-series forecasting models, enabling faster prototyping and experimentation to select the best performing machine learning (ML) model. SageMaker Canvas is a visual point-and-click interface that enables business analysts to generate accurate machine learning (ML) predictions on their own — without requiring any machine learning experience or having to write a single line of code.
+
+SageMaker Canvas allows you to train ML models through two different methods; 1/ Quick build that produces a trained model in less than 20 minutes, prioritizing speed over accuracy, and 2/ Standard build that produces a trained model in under 4 hours, prioritizing accuracy over latency after going through the complete ML cycle including pre-processing, feature engineering, and exploring the hyper-parameter space to select the best model. Previously, ML models for time-series forecasting use cases in Canvas supported only Standard build models. Starting today, you can also use Quick build models to experiment rapidly, generate predictions, and validate hypotheses faster for time-series forecasting data.
+
+Quick and Standard build methods are currently supported for all use cases currently supported by Amazon SageMaker Canvas and in all AWS regions where SageMaker Canvas is available. To learn more and get started, please see the launch blog post and the [Amazon SageMaker Canvas documentation](https://docs.aws.amazon.com/sagemaker/latest/dg/canvas-build-model.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/10/amazon-sagemaker-canvas-quick-build-support-time-series-forecast-models/
