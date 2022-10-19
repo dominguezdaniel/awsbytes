@@ -1,0 +1,11 @@
+# Amazon SES now offers new model to simplify provisioning and managing dedicated IPs
+
+Amazon Simple Email Service (Amazon SES) announces the launch of a new model of Dedicated IPs (managed) which helps customers to grow, manage and maintain their sending reputation via exclusive IP addresses without all of the heavy lifting associated with provisioning and managing dedicated IPs. Amazon SES is a scalable, cost-effective, and flexible cloud-based email service that allows digital marketers and application developers to send marketing, notification, and transactional emails from within any application.
+
+Compared to using traditional shared IPs, leasing dedicated IPs is a common way to help increase delivery rate because it ensures customers are the sole exclusive sender and do not share their IPs with other senders. SES offers dedicated IP addresses for lease and customers pay for per IP address, which until today, required manual setup and management. The new managed feature will help customers to quickly and easily provision dedicated IP addresses and maintain their sending reputation. The entire process of leasing, warming-up, scaling and managing email sending on exclusive IP addresses is all handled by Dedicated IPs (managed). SES uses recent sending performance and historical forecast models to continuously re-adjust the sending volume and routing across the IP space with the goal of maximizing reputation and minimizing the impact of undelivered or bounced emails.
+
+With this launch, customers are automatically provided with the correct amount of dedicated IPs that they require and complete the warmup quicker so that they don’t pay more than they need to and can start sending their email quickly. Dedicated IPs (managed) helps reduce the overheads associated with email sending via a dedicated IP.
+Customers can access Dedicated IPs (managed) via the AWS console and public APIs. Customers can get started with dedicated IPs managed with one click in the console, and will be guided through the setup process to help them can start sending quickly.
+To learn more about Amazon SES, visit [this page](https://aws.amazon.com/ses/).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/10/amazon-ses-model-provisioning-managing-dedicated-ips/
