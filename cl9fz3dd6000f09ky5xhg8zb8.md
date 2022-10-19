@@ -1,0 +1,7 @@
+# Announcing the FreeFormInput Slot Type for Amazon Lex
+
+[Amazon Lex](https://aws.amazon.com/lex/) is a service for building conversational interfaces into any application using voice and text. With Amazon Lex, you can quickly and easily build sophisticated, natural language, conversational bots (“chatbots”), virtual agents, and IVR systems. Today, Amazon Lex launches the FreeFormInput built-in slot type.
+
+You can easily design bots to capture free form input from your customers. The built-in can recognize strings made up of words or characters. The resolved value is the complete free form entry provided by the user. For example, following a phone conversation, you may need to collect the caller’s feedback. With the FreeFormInput built-in slot type, bot builders can easily capture commentary, which they can analyze later. The FreeFormInput slot type is available in all locales and regions where Lex operates. It can be accessed via both [Lex V2 console](https://console.aws.amazon.com/lexv2/home) and SDKs. To learn more, visit the [Amazon Lex documentation](https://docs.aws.amazon.com/lexv2/latest/dg/built-in-slot-free-form.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/10/announcing-freeforminput-slot-type-amazon-lex/
