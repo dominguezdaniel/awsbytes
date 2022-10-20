@@ -7,5 +7,3 @@ Once you have set up the applications that need monitoring in your account, Appl
 The new dashboard is available in all AWS commercial regions. For information about pricing, see Amazon CloudWatch Pricing. To learn more about the service, pursue the [Amazon CloudWatch Application Insights](https://aws.amazon.com/windows/platform-and-experience/) pages.
 
 > Source: https://aws.amazon.com/about-aws/whats-new/2022/10/visualize-application-health-amazon-cloudwatch-application-insights/
-
-%%[coffee]
