@@ -1,0 +1,9 @@
+# AWS Batch increases compute and memory resource configurations for Fargate type jobs by 4X
+
+AWS Batch customers can now submit Fargate type jobs to use up to 16 vCPUs, an approximately 4x increase from before. vCPUs are the primary compute resource in Fargate type Batch job. Larger vCPUs enable compute-heavy applications like machine learning inference, scientific modeling, and distributed analytics to more easily run on Fargate. In addition, customers can now provision up to 120 GiB of memory for Fargate type jobs, also a 4x increase from before. This helps their batch jobs better perform memory-intensive operations on Fargate. Larger vCPU and memory options may also make migration to serverless container compute simpler for jobs that need more compute resources and cannot be easily re-architected into smaller sized containers.
+
+To run Fargate type batch job with these increased vCPU and memory configurations, simply create a new job definition with new requirements and submit the job with this new job definition, or submit job with the new requirements overrides with an exiting job definiton. Customer can run their job with increase compute and memory resource in Batch Fargate On-Demand or the Fargate Spot ComputeEnvironment.
+
+The new compute and memory resource configurations for Fargate type jobs are available in all AWS Regions where AWS Batch is currently available. Running jobs with Increased vCPU and memory configurations requires the use of Fargate’s vCPU-based Service Quotas, learn more about vCPU-based Service Quotas on the FAQ page. To learn more about AWS Batch, see the AWS Batch User Guide. To learn more about the AWS Batch API, see the [AWS Batch API Reference](https://docs.aws.amazon.com/batch/latest/APIReference/Welcome.html).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/10/aws-batch-increases-compute-memory-resource-configurations-fargate-type-jobs-4x/
