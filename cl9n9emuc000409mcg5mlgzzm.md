@@ -1,0 +1,7 @@
+# AWS Global Accelerator announces AddEndpoints and RemoveEndpoints APIs
+
+AWS Global Accelerator now offers two new APIs, AddEndpoints and RemoveEndpoints, that allow you to add and remove endpoints behind your accelerator. With these new APIs, you can now configure endpoints behind your accelerators without having to provide the full list of endpoints for adding or removing endpoints. Both AddEndpoints and RemoveEndpoints APIs can accommodate up to 10 endpoints in a single API call. The new APIs help increase scalability and reduce errors when you manage your endpoint workflows with Global Accelerator. You can continue to use the AddEndpointGroup and RemoveEndpointGroup APIs to add and remove endpoint groups, and the DescribeEndpointGroup API to describe all endpoints behind an accelerator.
+
+There is no additional charge for using AddEndpoints and RemoveEndpoints APIs with Global Accelerator. To learn more, see the [developer documentation](https://docs.aws.amazon.com/global-accelerator/latest/dg/what-is-global-accelerator.html) in the AWS Global Accelerator Developer Guide. To get started with Global Accelerator, visit the [AWS Global Accelerator product page](https://aws.amazon.com/global-accelerator/).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/10/aws-global-accelerator-announces-addendpoints-removeendpoints-apis/
