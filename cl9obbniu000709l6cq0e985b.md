@@ -1,0 +1,9 @@
+# AWS Batch now supports Amazon Elastic Kubernetes Service (Amazon EKS)
+
+AWS Batch introduced support for Amazon Elastic Kubernetes Service (Amazon EKS), enabling customers to run their jobs on Amazon EKS clusters as Kubernetes pods. AWS Batch manages the scaling of Kubernetes nodes, placement of pods, and supports job execution using Amazon Compute Cloud (Amazon EC2) or Amazon EC2 Spot. Furthermore, Batch respects other workloads on these EKS clusters, and will not place jobs on non-Batch nodes.
+
+AWS Batch has optimized the experience of running batch workloads at scale reliably and efficiently for years and now extends those capabilities to Amazon EKS customers. AWS Batch simplifies execution of batch workloads on EKS clusters by providing fully managed batch capabilities such as queueing, dependency tracking, managing job retries and priorities, pod management, and node scaling. AWS Batch is designed to handle multiple availability zones, multiple Amazon EC2 instance types and sizes, and integrates with Amazon EC2 Spot best practices to run your workloads in a fault-tolerant manner with low interruption rates. You can use AWS Batch to run a handful of overnight jobs, or millions of mission-critical jobs, with confidence that Batch will help you manage them with speed and efficiency.
+
+Customers can get started by [registering a valid Amazon EKS cluster with Batch](https://docs.aws.amazon.com/batch/latest/userguide/getting-started-eks.html#getting-started-eks-step-1), attaching an AWS Batch job queue to it, and registering an EKS job definition using attributes from their pod spec. Then, they can submit jobs using the SubmitJob API, referencing to the job definition. To learn more, visit our [AWS blog](https://aws.amazon.com/blogs/aws/aws-batch-for-amazon-elastic-kubernetes-service/).
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/10/aws-batch-supports-amazon-eks/
