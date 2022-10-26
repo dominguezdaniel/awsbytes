@@ -1,0 +1,11 @@
+# Amazon SageMaker adds eight new Graviton-based instances for model deployment
+
+Amazon SageMaker expands access to eight new Graviton2 and Graviton3-based machine learning (ML) instance families so that customers have more options for optimizing their cost and performance when deploying their ML models on SageMaker. Now, customers can use ml.c7g, ml.m6g, ml.m6gd, ml.c6g, ml.c6gd, ml.c6gn, ml.r6g, and ml.r6gd for Real-time and Asynchronous Inference model deployment options.
+
+Amazon SageMaker now supports 7 instance families: ml.m6g, ml.m6gd, ml.c6g, ml.c6gd, ml.c6gn, ml.r6g, and ml.r6gd, that are powered by AWS Graviton2 processors that provide customers with up to 40 percent better performance at the same price for a wide range of workloads over comparable fifth-generation x86-based instances. Graviton2-based ML instances are available in all commercial regions. To find out which instance families are available in the region of your choice, please visit our pricing page.
+
+Building on the improvements of Graviton2, Graviton3-based instances deliver up to 25 percent higher performance, up to 2x higher floating-point performance, and 50 percent faster memory access based on leading-edge DDR5 memory technology compared with Graviton2 processors. Specifically for ML workloads, AWS Graviton3 processors deliver up to 3x better performance compared to AWS Graviton2 processors, including support for bfloat16. Amazon SageMaker now supports the ml.c7g instance family. ml.c7g instances are available in US East (Ohio), US East (N. Virginia), US West (Oregon), and Europe (Ireland).
+
+To get started, select a Graviton-based instance when you create your SageMaker [endpoint configuration](https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_ProductionVariant.html#sagemaker-Type-ProductionVariant-InstanceType). For pricing information on these instances, please visit our pricing page.
+
+> Source: https://aws.amazon.com/es/about-aws/whats-new/2022/10/amazon-sagemaker-adds-new-graviton-based-instances-model-deployment/
