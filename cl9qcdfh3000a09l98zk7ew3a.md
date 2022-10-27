@@ -1,0 +1,9 @@
+# IAM Access Analyzer findings now support Amazon SNS topics and five other AWS resource types to help you identify public and cross-account access
+
+[AWS Identity and Access Management (IAM) Access Analyzer](https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html) now supports six additional resource types to help you identify public and cross-account access from outside your AWS account and organization. These six resource types include Amazon SNS topics, Amazon EBS volume snapshots, Amazon RDS DB snapshots, Amazon RDS DB cluster snapshots, Amazon ECR repositories, and Amazon EFS file systems. IAM Access Analyzer now analyzes resource policies, access control lists, and other access controls for these resources to make it easier for you to identify public, cross-account, and cross-organization access. These findings can help you adhere to the security best practice of least privilege and reduce unintended external access to your resources.
+
+You can also use IAM Access Analyzer to preview and validate public and cross-account access before deploying permissions changes to production. Now, you can use IAM Access Analyzer APIs to preview access to these six additional resource types.
+IAM Access Analyzer resource types are available to you at no additional cost. IAM Access Analyzer is available in the IAM console and through APIs in all AWS Regions, including the AWS GovCloud (US) Regions.
+To learn more about the six newly supported resource types, see [IAM Access Analyzer resource types](https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-resources.html).
+
+> Source: https://aws.amazon.com/es/about-aws/whats-new/2022/10/iam-access-analyzer-findings-amazon-sns-topics-5-aws-resource-types-account-access/
