@@ -1,0 +1,7 @@
+# Introducing the Amazon OpenSearch Service delivery program
+
+Amazon Web Services (AWS) is pleased to announce the new Amazon OpenSearch Service Delivery specialization for AWS Partners that help customers perform interactive log analytics, real-time application monitoring, website search, and more. Amazon OpenSearch Service manages software installation, upgrades, patching, scaling (up to 3 PB), and cross-region replication with no downtime. Amazon OpenSearch Service is also bundled with a dashboard visualization tool, OpenSearch Dashboards. This tool helps visualize not only log and trace data, but also machine-learning powered results for anomaly detection and search relevance ranking.
+
+The Amazon OpenSearch Service Delivery specialization provides customers with a vetted list of AWS Partners with proven success in delivering Amazon OpenSearch Service solutions. Customers can browse validated partners with confidence, knowing these partners have deep technical knowledge and valuable experience delivering solutions with Amazon OpenSearch Service. Learn more on the [Amazon OpenSearch Service Partners page](https://aws.amazon.com/opensearch-service/partners/).
+
+> Source: https://aws.amazon.com/es/about-aws/whats-new/2022/10/amazon-opensearch-service-delivery-program/
