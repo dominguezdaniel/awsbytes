@@ -11,3 +11,5 @@ See the [Amazon RDS Custom for SQL Server documentation page for storage scaling
 Visit the [Amazon RDS Custom website](https://aws.amazon.com/rds/custom/)
 
 See the [Amazon RDS Custom User Guide](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-custom.html)
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-rds-custom-sql-server-scaling-storage/
