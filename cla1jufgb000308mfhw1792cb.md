@@ -1,0 +1,11 @@
+# Announcing data tiering for Amazon MemoryDB for Redis
+
+You can now use data tiering for Amazon MemoryDB for Redis as a lower cost way to scale your clusters to up to hundreds of terabytes of capacity. Data tiering provides a new price-performance option for MemoryDB by utilizing lower-cost solid state drives (SSDs) in each cluster node, in addition to storing data in memory. Data tiering is ideal for workloads that access up to 20% of their overall dataset regularly, and for applications that can tolerate additional latency when accessing data on SSD.
+
+When using clusters with data tiering, MemoryDB is designed to automatically and transparently move the least recently used items from memory to locally attached NVMe SSDs when available memory capacity is exhausted. When an item that was moved to SSD is subsequently accessed, MemoryDB moves it back to memory asynchronously before serving the request. Assuming 500-byte String values, you can typically expect an additional 450µs latency for read requests to data stored on SSD compared to read requests to data in memory.
+
+MemoryDB data tiering is available when using Redis version 6.2.6 and above on Graviton2-based R6gd nodes. R6gd nodes have nearly 5x more total capacity (memory + SSD) and can help you achieve over 60% storage cost savings when running at maximum utilization compared to R6g nodes (memory only).
+
+To get started using MemoryDB data tiering, create a new cluster using one of the R6gd node types using the AWS Management Console for MemoryDB, the AWS CLI, or one of the SDKs. Data tiering on R6gd nodes is available in the Asia Pacific (Mumbai), Asia Pacific (Singapore), Asia Pacific (Sydney), Asia Pacific (Tokyo), Canada (Central), Europe (Frankfurt), Europe (Ireland), Europe (Paris), South America (Sao Paulo), US East (N. Virginia), US East (Ohio), US West (N. California), and US West (Oregon) Regions. For pricing, see Amazon MemoryDB pricing and for more information, see the [MemoryDB data tiering documentation](https://docs.aws.amazon.com/memorydb/latest/devguide/data-tiering.html). If you have any questions or feature requests, you can email us at memorydb-help@amazon.com.
+
+> Source: https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-memorydb-redis-data-tiering/
