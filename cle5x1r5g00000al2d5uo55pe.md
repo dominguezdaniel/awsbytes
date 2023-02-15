@@ -1,7 +1,5 @@
 # Book Review: AWS Certified Solutions Architect Study Guide
 
-[![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676479927635/96214c4c-d485-482c-b0c3-6e03a057e2e2.png align="center")](https://rebrand.ly/devshelf-001)
-
 The “[AWS Certified Solutions Architect Study Guide: Associate SAA-C01 Exam 2nd Edition](https://rebrand.ly/devshelf-001)” by Ben Piper and David Clinton is a comprehensive guide to prepare for the Amazon Web Services (AWS) Certified Solutions Architect — Associate exam. The book covers all the relevant topics, including the latest updates and best practices in the cloud computing industry.
 
 # **What Does This Book Cover?**
@@ -49,3 +47,5 @@ In my personal opinion, the “[AWS Certified Solutions Architect Study Guide: A
 ---
 
 [![https://devshelf.co](https://miro.medium.com/max/700/0*Z6iM1teNar1lMmRb.jpeg align="center")](https://devshelf.co)
+
+%%[books-guides]
