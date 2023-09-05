@@ -13,6 +13,8 @@ Here are the latest AWS updates and news from **Friday, September 1**.
 
 %%[pluralsight] 
 
+---
+
 Source [https://aws.amazon.com/new/](https://aws.amazon.com/new/)
 
 * [**Amazon Connect outbound campaigns now offer voice dialing with no agents required**](https://aws.amazon.com/about-aws/whats-new/2023/09/amazon-connect-outbound-campaigns-voice-dialing-no-agents-required/)**:** This feature streamlines and automates outbound customer interactions, enhancing efficiency and customer engagement. It's a significant development in Amazon Connect's capabilities, aimed at optimizing contact center operations.
