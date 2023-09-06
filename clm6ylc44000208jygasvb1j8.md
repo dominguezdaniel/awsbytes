@@ -6,6 +6,7 @@ datePublished: Tue Sep 05 2023 23:45:56 GMT+0000 (Coordinated Universal Time)
 cuid: clm6ylc44000208jygasvb1j8
 slug: aws-bytes-244
 canonical: https://dominguezdaniel.substack.com/p/daily-aws-updates-244
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694004436020/6db5a0f6-c0fe-4bc0-ab57-82463cbd882c.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1693957537074/5d6699e8-a4ae-4703-b739-6ce7903e6487.jpeg
 tags: aws
 
