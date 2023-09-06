@@ -1,7 +1,7 @@
 ---
 title: "AWS Bytes #248"
 seoTitle: "AWS Bytes #248"
-seoDescription: "09/05/2023 - RDS, Trusted, SAM, EC2, MWAA, EKS, CloudWatch"
+seoDescription: "09/05/2023 - RDS, Trusted, SAM, EC2, MWAA, EKS"
 datePublished: Wed Sep 06 2023 13:23:19 GMT+0000 (Coordinated Universal Time)
 cuid: clm7rshil000809ik7l7ndxbk
 slug: aws-bytes-248
