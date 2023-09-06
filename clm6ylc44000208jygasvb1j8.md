@@ -1,8 +1,11 @@
 ---
 title: "AWS Bytes #244"
+seoTitle: "AWS Bytes #244"
+seoDescription: "Here are the latest AWS updates and news from Friday, September 1."
 datePublished: Tue Sep 05 2023 23:45:56 GMT+0000 (Coordinated Universal Time)
 cuid: clm6ylc44000208jygasvb1j8
 slug: aws-bytes-244
+canonical: https://dominguezdaniel.substack.com/p/daily-aws-updates-244
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1693956861178/62fe9c20-62d5-4255-85d3-f1d59fa5d9a4.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1693957537074/5d6699e8-a4ae-4703-b739-6ce7903e6487.jpeg
 tags: aws
