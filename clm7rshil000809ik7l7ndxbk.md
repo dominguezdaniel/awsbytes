@@ -6,7 +6,7 @@ datePublished: Wed Sep 06 2023 13:23:19 GMT+0000 (Coordinated Universal Time)
 cuid: clm7rshil000809ik7l7ndxbk
 slug: aws-bytes-248
 canonical: https://dominguezdaniel.substack.com/p/aws-bytes-248
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694008022513/3f5be119-db27-432e-a3a2-be3b1f649047.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694008303587/9c7259fd-cc70-4460-9146-39ff5b908105.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1694007401279/27704509-ab3a-4ea3-bf8b-f05cdfe9addf.jpeg
 tags: aws
 
