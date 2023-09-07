@@ -12,7 +12,7 @@ tags: aws
 
 ---
 
-Here are the latest AWS updates and news from **Tuesday, September 6**.
+Here are the latest AWS updates and news from **Wednesday, September 6**.
 
 Source [https://aws.amazon.com/new/](https://aws.amazon.com/new/)
 
