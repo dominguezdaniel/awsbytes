@@ -6,7 +6,7 @@ datePublished: Sat Sep 09 2023 13:12:41 GMT+0000 (Coordinated Universal Time)
 cuid: clmc1qd3h000g09l581qrfjh9
 slug: aws-bytes-251
 canonical: https://dominguezdaniel.substack.com/p/aws-bytes-251
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694265510756/86e3aa78-9da9-414d-8ca9-503d4cd30b50.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694265564031/ce3b567c-93d8-46bc-875e-3ef629351897.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1694265140404/d7741bee-62fe-45c8-b6dd-093e364e7480.jpeg
 tags: aws
 
